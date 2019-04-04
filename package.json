@@ -1,0 +1,19 @@
+{
+  "name": "joosten",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawoodaijaz97/Joosten2.git"
+  },
+  "author": "Dawood Aijaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawoodaijaz97/Joosten2/issues"
+  },
+  "homepage": "https://github.com/dawoodaijaz97/Joosten2#readme",
+  "description": ""
+}

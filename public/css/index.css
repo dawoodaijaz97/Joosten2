@@ -1,0 +1,43 @@
+
+
+:root{
+    --name-color1: #111111;
+    --name-color2:white
+}
+#nameCont{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content:space-around;
+    height: 100vh;
+    width: 100vw;
+}
+
+#nameCont #name{
+
+    transition: color,ease-in,6000ms;
+    font-size: 22px;
+    font-weight: 100;
+}
+.pulse1{
+
+    color: var(--name-color1);
+
+}
+.pulse2{
+    color:var(--name-color2);
+}
+
+/*tablet styles*/
+@media screen and (max-width:768px)  {
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #name{
+
+        transition: color,ease-in,4000ms;
+        font-size: 1.8rem;
+    }
+}

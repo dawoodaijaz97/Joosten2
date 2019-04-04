@@ -1,0 +1,59 @@
+
+:root{
+
+}
+
+/*Sculpture Card styles*/
+
+
+
+.works{
+    margin-top: 190px !important;
+    padding-top: 50px;
+    border-top: 0.4pt solid #7b7a79;
+
+}
+
+.categoriesCard{
+    padding: 0!important;
+    margin: 10px;
+    background-color: rgb(0, 0, 0) !important;
+
+}
+.titleCont{
+    padding: 8px 0!important;
+    margin-top: 9px;
+    /*clear: right;*/
+
+}
+.titleCont p{
+    text-align: center;
+}
+.title{
+    color: #7b7a79;
+    text-align: center;
+    font-size: 13px;
+    transition: color,swing,450ms;
+
+}
+.title:hover{
+    text-decoration: none!important;
+}
+.categoriesCard:hover .title{
+    color: white;
+}
+.image{
+    opacity: 1;
+    transition: all,swing,1s;
+    filter: blur(0px);
+}
+
+.blurOut{
+    display: inline-block;
+    background-color: rgba(247, 252, 255, 0.2);
+    /*float: right;*/
+}
+.categoriesCard:hover  .image{
+    opacity: 0.5 !important;
+    filter: blur(0.4px);
+}
