@@ -1,59 +1,160 @@
+:root {}
 
-:root{
-
+body{
+    background-color: #060606;
 }
-
 /*Sculpture Card styles*/
+.navbar{
+    background-color: #060606!important;
+}
+.dropdown-menu{
+    background-color: #060606!important;
+}
+.dropdown-item:hover{
+    color: #ffffff !important;
 
+    background-color: #060606!important;
+}
 
+.flex-cont {
+    padding: 2%;
+}
 
-.works{
+.works {
     margin-top: 190px !important;
-    padding-top: 50px;
-    border-top: 0.4pt solid #7b7a79;
-
+    padding-top: 120px;
+    border-top: 0.1pt solid rgb(22, 21, 21);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.categoriesCard{
-    padding: 0!important;
-    margin: 10px;
-    background-color: rgb(0, 0, 0) !important;
 
+/*Category styles */
+
+.categoriesCard {
+    max-width:240px;
+    padding: 0 !important;
+    margin: 0 10%;
+    margin-bottom: 100px!important;
+    background-color: #060606; !important;
+    align-content: space-around;
 }
-.titleCont{
-    padding: 8px 0!important;
+
+.titleCont {
+    padding: 8px 0 !important;
     margin-top: 9px;
-    /*clear: right;*/
-
 }
-.titleCont p{
+
+.titleCont p {
     text-align: center;
 }
-.title{
+
+.title {
     color: #7b7a79;
     text-align: center;
-    font-size: 13px;
-    transition: color,swing,450ms;
+    font-size: 16px;
+    transition: color, swing, 450ms;
+}
 
+.title:hover {
+    text-decoration: none !important;
 }
-.title:hover{
-    text-decoration: none!important;
-}
-.categoriesCard:hover .title{
+
+.categoriesCard:hover .title {
     color: white;
 }
-.image{
-    opacity: 1;
-    transition: all,swing,1s;
-    filter: blur(0px);
+
+.image {
+    opacity: 0.95;
+    transition: all, swing, 1.5s;
 }
 
-.blurOut{
+
+/*blur style*/
+
+.blurOut {
     display: inline-block;
-    background-color: rgba(247, 252, 255, 0.2);
-    /*float: right;*/
+    background-color: rgb(0, 0, 0);
+    transition: all ,swing,2s;
 }
-.categoriesCard:hover  .image{
-    opacity: 0.5 !important;
-    filter: blur(0.4px);
+
+
+.categoriesCard:hover .image {
+    opacity: 0.95!important;
+}
+.categoriesCard:hover .blurOut{
+    background-color: rgb(242, 242, 255);
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1400px) {
+    .categoriesCard {
+        margin: 0 200px;
+    }
+}
+
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .categoriesCard {
+        max-width: 80%;
+    }
+}
+
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .categoriesCard {
+        max-width:55%;
+    }
+}
+
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .categoriesCard {
+        max-width:65%;
+    }
+}
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .works {
+        margin-top: 60px!important;
+    }
+    .categoriesCard {
+        max-width: 100%;
+    }
 }

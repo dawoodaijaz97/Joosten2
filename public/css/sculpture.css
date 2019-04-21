@@ -1,25 +1,22 @@
-
-:root{
-
-}
+:root {}
 
 
 /*Sculpture Card styles*/
 
-.sculptures{
-    margin-top:100px;
+.sculptures {
+    margin-top: 100px;
 }
 
-
-.sculptureCard{
+.sculptureCard {
     margin: 15px;
     max-height: 390px;
 }
-.sculptureCard img{
+
+.sculptureCard img {
     max-height: 337px;
 }
 
-.title{
+.title {
     color: #7b7a79;
     margin-top: 5px;
     margin-left: 5px;

@@ -6,7 +6,7 @@ $("document").ready(function () {
     for(let i =0; i<categories.length; i++){
         console.log(categories[i]);
         let worksCard = $(
-            "<div class=\"col-md-5 align col-sm-10  categoriesCard\" id=\"\">\n" +
+            "<div class=\"categoriesCard\" id=\"\">\n" +
             "    <div class='blurOut'>\n" +
             "        <a href=\"\" class=\"link\">\n" +
             "             <img class=\"image img-fluid text-center\" src=\"\" alt=\"\">\n" +
