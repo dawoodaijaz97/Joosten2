@@ -26,7 +26,7 @@ body{
     padding: 2%;
 }
 
-.works {
+.gallery {
     margin-top: 150px !important;
     padding-top: 120px;
     border-top: 0.1pt solid rgb(22, 21, 21);
@@ -41,28 +41,22 @@ body{
 
 /*Category styles */
 
-.categoriesCard {
-    max-width:220px;
+.galleryCard {
+    max-width:450px;
     padding: 0 !important;
-    margin: 0 15%;
-    margin-bottom: 75px;
+    margin: 0 100px;
+    margin-bottom: 120px;
     background-color: #060606; !important;
     align-content: space-around;
 }
 
 .titleCont {
-    padding: 8px 0 !important;
-    position: relative;
-    bottom: 45px;
+    background-color: rgba(4,0,1,0.8) !important;
 }
 
-.titleCont p {
-    text-align: center;
-}
 
 .title {
     color: #737271;
-    text-align: center;
     font-size: 16px;
     transition: color, swing, 450ms;
 }
@@ -79,10 +73,10 @@ body{
     text-decoration: none !important;
 }
 
-.categoriesCard:hover .title {
+.galleryCard:hover .title {
     color: white;
 }
-.categoriesCard:hover .title2 {
+.galleryCard:hover .title2 {
     color: white;
 }
 .image {
@@ -94,45 +88,40 @@ body{
     transition: all, swing, 0.5s;
 }
 
-.blurOut{
-    background-color: #ffffff;
-    width: 100%;
-    height: 100%;
-}
-.categoriesCard:hover .image{
+.galleryCard:hover .image{
     opacity: 0.9;
 }
 
 
-.categoriesCard:hover .image2{
+.galleryCard:hover .image2{
     opacity: 0.7;
 }
-#mode{
-    opacity: 0!important;
+
+/*.leftBox{*/
+    /*position: relative;*/
+    /*top:-110px;*/
+    /*right: -150%;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    /*align-items: baseline;*/
+    /*width: 10%;*/
+
+
+/*}*/
+.leftBox .details p{
+    margin-bottom:3px!important;
 }
-.pulse1{
-
-    opacity: 0;
-
-}
-.pulse2{
-    opacity: 1;
-}
-
-/*blur style*/
-
-
-
-
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 
 @media (min-width: 1400px) {
-    .categoriesCard {
-        margin: 0 200px;
-        margin-bottom: 75px;
+    .galleryCard {
+        margin: 0 300px;
+        margin-bottom: 120px;
     }
 }
 
@@ -143,9 +132,14 @@ body{
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-    .categoriesCard {
-        max-width:220px;
+    .galleryCard {
+        max-width:450px;
     }
+    .leftBox {
+
+        right: -130%;
+    }
+
 }
 
 
@@ -155,9 +149,15 @@ body{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .categoriesCard {
-        max-width:220px;
+    .galleryCard {
+        max-width:450px;
+
     }
+    .leftBox {
+
+        right: -115%;
+    }
+
 }
 
 
@@ -167,9 +167,15 @@ body{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .categoriesCard {
-        max-width:220px;
+    .galleryCard {
+        max-width:450px;
     }
+    .leftBox {
+
+        right: -115%;
+    }
+
+
 }
 
 
@@ -179,9 +185,16 @@ body{
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-    .categoriesCard {
-        max-width:220px;
+    .galleryCard {
+        max-width:65%;
+        margin-bottom: 120px;
     }
+    .leftBox {
+
+        right: -115%;
+    }
+
+
 }
 
 
@@ -191,11 +204,14 @@ body{
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-    .works {
+    .gallery {
         margin-top:170px!important;
     }
-    .categoriesCard {
-        max-width: 100%;
+
+    .galleryCard {
+        max-width:60%;
+        margin: 0 10px;
+        margin-bottom: 120px;
     }
     .dropdown-menu{
         margin: 0px!important;
@@ -208,5 +224,9 @@ body{
     }
     .nav-link{
         padding: 0px;
+    }
+    .leftBox {
+
+        right: -115%;
     }
 }
