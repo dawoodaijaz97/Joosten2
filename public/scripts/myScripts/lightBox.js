@@ -11,19 +11,19 @@ $("document").ready(function () {
     for(let i =0; i<lightBoxGallery.length; i++) {
         console.log(lightBoxGallery[i]);
         let worksCard = $("<div class=galleryCard>\n" +
-        "               <div class=\"leftBox\">\n" +
-            "                <div class='details'>\n" +
-            "                    <p class='title'></p>" +
-            "                    <p class='year'>xyz</p>\n" +
-            "                    <p class='size'>xyz</p>\n" +
-            "                    <p class='material'>xyz</p>\n" +
-            "                </div>\n" +
-            "            </div>\n" +
             "            <div>\n" +
             "                <div class=\"link blurOut\">\n" +
             "                    <img src=\"images/lightBox/monkoh.jpg\" class=\"image img-fluid text-ceter\">\n" +
             "                </div>\n" +
             "            </div>\n" +
+        "                <div class=\"rightBox rightLess\">\n" +
+        "                   <div class='details'>\n" +
+        "                       <p class='title'></p>" +
+            "                   <p class='year'>xyz</p>\n" +
+            "                   <p class='size'>xyz</p>\n" +
+            "                   <p class='material'>xyz</p>\n" +
+        "               </div>\n" +
+            "           </div>\n" +
             "</div>");
 
         worksCard.attr("id", lightBoxGallery[i].title2);

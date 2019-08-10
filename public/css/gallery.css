@@ -1,118 +1,117 @@
-:root {}
+:root {
+}
 
-body{
+body {
     background-color: #060606;
 }
+
 /*Sculpture Card styles*/
-.navbar{
-    background-color: #060606!important;
+.navbar {
+    background-color: #060606 !important;
 }
-.dropdown-menu{
-    background-color: #060606!important;
-    padding-top: 0!important;
+
+.dropdown-menu {
+    background-color: #060606 !important;
+    padding-top: 0 !important;
 }
-.dropdown-item{
+
+.dropdown-item {
     font-size: 15px;
-    padding: 0 7px!important;
+    padding: 0 7px !important;
 }
 
-
-.dropdown-item:hover{
+.dropdown-item:hover {
     color: #ffffff !important;
-    background-color: #060606!important;
-}
-
-.flex-cont {
-    padding: 2%;
+    background-color: #060606 !important;
 }
 
 .gallery {
-    margin-top: 150px !important;
+    margin-top: 180px !important;
     padding-top: 120px;
+    margin-left: 25px;
+    margin-right: 25px;
     border-top: 0.1pt solid rgb(22, 21, 21);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    transition: all,ease-in,6000ms;
+    transition: all, ease-in, 6000ms;
 }
-
 
 /*Category styles */
 
 .galleryCard {
-    max-width:450px;
+    max-width: 60%;
     padding: 0 !important;
-    margin: 0 100px;
     margin-bottom: 120px;
-    background-color: #060606; !important;
+    background-color: #060606;
+!important;
+    align-content: space-around;
+}
+
+.galleryCard2 {
+    max-width: 45%;
+    padding: 0 !important;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+    background-color: #060606;
+!important;
     align-content: space-around;
 }
 
 .titleCont {
-    background-color: rgba(4,0,1,0.8) !important;
+    background-color: rgba(4, 0, 1, 0.8) !important;
 }
-
 
 .title {
-    color: #737271;
-    font-size: 16px;
+    font-size: 13px;
     transition: color, swing, 450ms;
 }
-.title2{
-    color: #bcbbba;
-    text-align: center;
-    font-size: 16px;
-    transition: color, swing, 450ms;
-}
-.title2:hover{
-    text-decoration: none !important;
-}
+
 .title:hover {
     text-decoration: none !important;
 }
 
-.galleryCard:hover .title {
-    color: white;
-}
-.galleryCard:hover .title2 {
-    color: white;
-}
 .image {
-    opacity: 1;
-    transition: all, swing,0.5s;
-}
-.image2{
     opacity: 1;
     transition: all, swing, 0.5s;
 }
 
-.galleryCard:hover .image{
+.image2 {
+    opacity: 1;
+    transition: all, swing, 0.5s;
+}
+
+.galleryCard:hover .image {
     opacity: 0.9;
 }
 
-
-.galleryCard:hover .image2{
+.galleryCard:hover .image2 {
     opacity: 0.7;
 }
 
-/*.leftBox{*/
-    /*position: relative;*/
-    /*top:-110px;*/
-    /*right: -150%;*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*flex-wrap: wrap;*/
-    /*justify-content: center;*/
-    /*align-items: baseline;*/
-    /*width: 10%;*/
+.rightBox {
 
-
-/*}*/
-.leftBox .details p{
-    margin-bottom:3px!important;
+    text-align: right;
+    font-size: 13px;
+    margin-top: 5px !important;
+    position: relative;
 }
+.rightMore{
+    right: -60%;
+    bottom: 80px;
+}
+.rightLess{
+    right: -33%;
+    bottom: 80px;
+}
+.rightBox .details p {
+    margin-bottom: 1px;
+    color: #5b5b5b;
+}
+
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -120,11 +119,26 @@ body{
 
 @media (min-width: 1400px) {
     .galleryCard {
+        max-width: 50%;
         margin: 0 300px;
         margin-bottom: 120px;
     }
-}
 
+    .galleryCard2 {
+        max-width: 35%;
+        margin: 0 300px;
+        margin-bottom: 120px;
+
+    }
+    .rightMore{
+        right: -75%;
+        bottom: 80px;
+    }
+    .rightLess{
+        right: -39%;
+        bottom: 80px;
+    }
+}
 
 /*
   ##Device = Laptops, Desktops
@@ -133,15 +147,22 @@ body{
 
 @media (min-width: 1025px) and (max-width: 1280px) {
     .galleryCard {
-        max-width:450px;
-    }
-    .leftBox {
-
-        right: -130%;
+        max-width: 65%;
     }
 
+    .galleryCard2 {
+        max-width: 45%;
+    }
+
+    .rightMore{
+        right: -62%;
+        bottom: 80px;
+    }
+    .rightLess{
+        right: -28%;
+        bottom: 80px;
+    }
 }
-
 
 /*
   ##Device = Tablets, Ipads (portrait)
@@ -150,16 +171,24 @@ body{
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .galleryCard {
-        max-width:450px;
+        max-width: 75%;
 
     }
-    .leftBox {
 
-        right: -115%;
+    .galleryCard2 {
+        max-width: 55%;
+    }
+
+    .rightBox {
+        text-align: right;
+        font-size: 13px;
+        margin-top: 60px !important;
+        position: initial;
+        padding-top: 10px;
+
     }
 
 }
-
 
 /*
   ##Device = Tablets, Ipads (landscape)
@@ -168,16 +197,23 @@ body{
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .galleryCard {
-        max-width:450px;
-    }
-    .leftBox {
+        max-width: 75%;
 
-        right: -115%;
     }
 
+    .galleryCard2 {
+        max-width: 55%;
+    }
+
+    .rightBox {
+        text-align: right;
+        font-size: 13px;
+        margin-top: 60px !important;
+        position: initial;
+        padding-top: 10px;
+    }
 
 }
-
 
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -185,18 +221,27 @@ body{
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+
     .galleryCard {
-        max-width:65%;
-        margin-bottom: 120px;
-    }
-    .leftBox {
+        max-width: 85%;
 
-        right: -115%;
     }
 
+    .galleryCard2 {
+        max-width: 62%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rightBox {
+        text-align: right;
+        font-size: 13px;
+        margin-top: 60px !important;
+        position: initial;
+        padding-top: 10px;
+    }
 
 }
-
 
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -205,28 +250,45 @@ body{
 
 @media (min-width: 320px) and (max-width: 480px) {
     .gallery {
-        margin-top:170px!important;
+        margin-top: 170px !important;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .galleryCard {
-        max-width:60%;
-        margin: 0 10px;
-        margin-bottom: 120px;
+        max-width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+
     }
-    .dropdown-menu{
-        margin: 0px!important;
+
+    .galleryCard2 {
+        max-width: 60%;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .dropdown-menu {
+        margin: 0px !important;
         padding: 0px !important;
     }
-    .dropdown-item{
+
+    .dropdown-item {
         font-size: 15px;
-        padding: 0!important;
+        padding: 0 !important;
         font-weight: 100;
     }
-    .nav-link{
+
+    .nav-link {
         padding: 0px;
     }
-    .leftBox {
 
-        right: -115%;
+    .rightBox {
+        text-align: right;
+        font-size: 13px;
+        margin-top: 35px !important;
+        position: initial;
+        padding-top: 10px;
     }
 }

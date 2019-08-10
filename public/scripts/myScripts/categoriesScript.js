@@ -27,6 +27,7 @@ $("document").ready(function () {
         worksCard.find("img").attr("src","./images/categories/"+categories[i].img).attr("alt",categories[i].title);
         if(categories[i].title == "Olfactory space design"){
             worksCard.find(".title").removeClass("title").addClass("title2").text(categories[i].title);
+            worksCard.find(".titleCont").removeClass("titleCont").addClass("titleCont2");
 
         }else{
             worksCard.find(".title").text(categories[i].title);

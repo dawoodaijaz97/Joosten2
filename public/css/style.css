@@ -38,7 +38,7 @@ body{
 }
 
 .nav-item .nav-link{
-    font-size: 15px;
+    font-size: 17px;
     color:var(--navlink-font-color)!important;
     transition: color,swing,300ms;
 }
@@ -46,7 +46,7 @@ body{
     margin: 0 3%;
 }
 #lang .nav-link{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .nav-link:hover{
@@ -65,6 +65,7 @@ body{
     padding: 0 10px 5px 15px!important;
     color:var(--dropdown-color)!important;
     font-weight: 100;
+    font-size: 16px;
     transition: background-color,color,swing,300ms;
 }
 #first{
@@ -86,7 +87,29 @@ body{
     }
 
 }
-
+.textBox{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.textBox p{
+    text-align: left;
+    color: #919191;
+}
+.myfoot a{
+    text-decoration: none;
+    text-underline: none;
+    color: #5a5a5a;
+    font-size: 13px;
+}
+.myfoot a:hover{
+    text-decoration: none;
+    text-underline: none;
+}
+.myfoot a p{
+    margin-right: 8px;
+    text-align: right;
+}
 
 @media screen and (max-width: 992px) {
     .navbar-nav{
