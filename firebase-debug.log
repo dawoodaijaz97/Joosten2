@@ -1,0 +1,76 @@
+[debug] [2019-08-10T23:28:15.292Z] ----------------------------------------------------------------------
+[debug] [2019-08-10T23:28:15.294Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dawood Aijaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --project joosten-ca26a
+[debug] [2019-08-10T23:28:15.295Z] CLI Version:   6.3.1
+[debug] [2019-08-10T23:28:15.295Z] Platform:      win32
+[debug] [2019-08-10T23:28:15.295Z] Node Version:  v10.16.1
+[debug] [2019-08-10T23:28:15.297Z] Time:          Sun Aug 11 2019 04:28:15 GMT+0500 (Pakistan Standard Time)
+[debug] [2019-08-10T23:28:15.297Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-10T23:28:15.638Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-10T23:28:15.640Z] > authorizing via signed-in user
+[debug] [2019-08-10T23:28:15.640Z] [iam] checking project joosten-ca26a for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-08-10T23:28:15.643Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-10T23:28:15.643Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-08-10T23:28:16.652Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-10T23:28:16.706Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/joosten-ca26a:testIamPermissions  
+
+[debug] [2019-08-10T23:28:19.443Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-10T23:28:19.445Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/joosten-ca26a  
+ 
+[debug] [2019-08-10T23:28:21.742Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'joosten-ca26a'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-08-10T23:28:21.749Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/joosten-ca26a/versions  
+
+[debug] [2019-08-10T23:28:24.976Z] <<< HTTP RESPONSE 200
+[info] i  hosting[joosten-ca26a]: beginning deploy...
+[info] i  hosting[joosten-ca26a]: found 198 files in public
+[debug] [2019-08-10T23:28:25.481Z] [hosting] hash cache [cHVibGlj] load error: lines is not defined
+[debug] [2019-08-10T23:28:27.297Z] [hosting] hash cache [cHVibGlj] stored for 198 files
+[debug] [2019-08-10T23:28:27.297Z] [hosting][hash queue][FINAL]
+[debug] [2019-08-10T23:28:27.298Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/joosten-ca26a/versions/0afcac9e787cfbe7:populateFiles  
+ <request body omitted>
+[debug] [2019-08-10T23:28:31.981Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-10T23:28:31.994Z] [hosting][populate queue][FINAL]
+[debug] [2019-08-10T23:28:31.996Z] [hosting] uploads queued: 17
+[debug] [2019-08-10T23:29:46.981Z] [uploadQueue] Retrying task f3a71ebd1741b86bd5879ad1e25f49dbf5c4b98cc6253c1cd1bcbd6d83a0a539
+[debug] [2019-08-10T23:30:17.652Z] [uploadQueue] Retrying task 5870cd91c2c4c785c26e3f034065f2c904a4299a8eec77f5f08ef9cce51d9619
+[debug] [2019-08-10T23:30:20.429Z] [uploadQueue] Retrying task c7eb777a8570be38ad1089928c7c96d027ed4a275d7c453ef411be893221ed6c
+[debug] [2019-08-10T23:30:20.513Z] [uploadQueue] Retrying task 32548a69155a46c0df0e3666a91f24f2b11a8fd0efcc4cfbe15f71c4d872e744
+[debug] [2019-08-10T23:30:20.629Z] [uploadQueue] Retrying task 3168453474ddfc8a7ef99b79f35a51b78d9da1f176da117a45e968aca791a9e3
+[debug] [2019-08-10T23:30:24.493Z] [uploadQueue] Retrying task a721c5ca8649e6af76cf8dc96117dae9f67fd06ce7a092b303b45678443aa1ef
+[debug] [2019-08-10T23:30:24.926Z] [uploadQueue] Retrying task eb0d57df48efaf721c54a9ae9e39334366c988d2783c6d4a4f1bfde6c8dca6a3
+[debug] [2019-08-10T23:30:25.149Z] [uploadQueue] Retrying task e67cadb3545acd3b107e6e6d707fae94c08974a95cb8a87ee488fca6a62bbeac
+[debug] [2019-08-10T23:30:27.484Z] [uploadQueue] Retrying task 194a564ff9dc02c59568d3bfd09d2ff45ca655e0d8e78d199780c58aebbceba9
+[debug] [2019-08-10T23:30:27.918Z] [uploadQueue] Retrying task 716a121724baf5fbe17a05e8fef9fba06e7cfdf463cb67090d5d87d2e6b9255c
+[debug] [2019-08-10T23:30:45.742Z] [uploadQueue] Retrying task a5c5ffe41c3875c8e97830f2ac19161a9dc9d62289d694a8ded4988c6dbc1a4e
+[debug] [2019-08-10T23:30:48.240Z] [uploadQueue] Retrying task f3a71ebd1741b86bd5879ad1e25f49dbf5c4b98cc6253c1cd1bcbd6d83a0a539
+[debug] [2019-08-10T23:31:28.950Z] [uploadQueue] Retrying task a721c5ca8649e6af76cf8dc96117dae9f67fd06ce7a092b303b45678443aa1ef
+[debug] [2019-08-10T23:31:32.256Z] [uploadQueue] Retrying task 32548a69155a46c0df0e3666a91f24f2b11a8fd0efcc4cfbe15f71c4d872e744
+[debug] [2019-08-10T23:31:47.699Z] [uploadQueue] Retrying task e67cadb3545acd3b107e6e6d707fae94c08974a95cb8a87ee488fca6a62bbeac
+[debug] [2019-08-10T23:31:55.299Z] [uploadQueue] Retrying task 716a121724baf5fbe17a05e8fef9fba06e7cfdf463cb67090d5d87d2e6b9255c
+[debug] [2019-08-10T23:32:03.625Z] [uploadQueue] Retrying task 3168453474ddfc8a7ef99b79f35a51b78d9da1f176da117a45e968aca791a9e3
+[debug] [2019-08-10T23:32:05.511Z] [uploadQueue] Retrying task eb0d57df48efaf721c54a9ae9e39334366c988d2783c6d4a4f1bfde6c8dca6a3
+[debug] [2019-08-10T23:33:10.677Z] [uploadQueue] Retrying task eb0d57df48efaf721c54a9ae9e39334366c988d2783c6d4a4f1bfde6c8dca6a3
+[debug] [2019-08-10T23:33:26.566Z] [uploadQueue] Retrying task 3168453474ddfc8a7ef99b79f35a51b78d9da1f176da117a45e968aca791a9e3
+[debug] [2019-08-10T23:34:38.937Z] [uploadQueue] Retrying task 3168453474ddfc8a7ef99b79f35a51b78d9da1f176da117a45e968aca791a9e3
+[debug] [2019-08-10T23:35:03.658Z] [uploadQueue] Retrying task eb0d57df48efaf721c54a9ae9e39334366c988d2783c6d4a4f1bfde6c8dca6a3
+[debug] [2019-08-10T23:35:37.699Z] [uploadQueue] Retrying task 3168453474ddfc8a7ef99b79f35a51b78d9da1f176da117a45e968aca791a9e3
+[debug] [2019-08-10T23:37:00.952Z] [uploadQueue] Retries exhausted for task 3168453474ddfc8a7ef99b79f35a51b78d9da1f176da117a45e968aca791a9e3:
+[debug] [2019-08-10T23:37:00.953Z] [hosting][upload queue][FINAL]
+[debug] [2019-08-10T23:37:02.168Z] Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (C:\Users\Dawood Aijaz\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:816:19)
+    at Object.onceWrapper (events.js:286:20)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at TLSSocket.emitRequestTimeout (_http_client.js:662:40)
+    at Object.onceWrapper (events.js:286:20)
+    at TLSSocket.emit (events.js:198:13)
+    at TLSSocket.EventEmitter.emit (domain.js:448:20)
+    at TLSSocket.Socket._onTimeout (net.js:442:8)
+    at ontimeout (timers.js:436:11)
+[error] 
+[error] Error: An unexpected error has occurred.

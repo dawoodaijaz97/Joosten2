@@ -17,7 +17,7 @@ body {
 
 .dropdown-item {
     font-size: 15px;
-    padding: 0 7px !important;
+    padding: 0 17px !important;
 }
 
 .dropdown-item:hover {
@@ -60,6 +60,14 @@ body {
 !important;
     align-content: space-around;
 }
+.galleryCard2:hover .details p{
+    opacity: 1;
+}
+.galleryCard:hover .details p{
+    opacity: 1;
+}
+
+
 
 .titleCont {
     background-color: rgba(4, 0, 1, 0.8) !important;
@@ -101,15 +109,31 @@ body {
 }
 .rightMore{
     right: -60%;
-    bottom: 80px;
+
 }
 .rightLess{
     right: -33%;
-    bottom: 80px;
+}
+.bottom3{
+    bottom: 55px !important;
+}
+.bottom4{
+    bottom: 70px !important;
+}
+.bottom5{
+    bottom: 88px !important;
+}
+.bottom6{
+    bottom: 110px !important;
+}
+.bottom7{
+    bottom: 133px !important;
 }
 .rightBox .details p {
     margin-bottom: 1px;
     color: #5b5b5b;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
 }
 
 /*
@@ -131,13 +155,12 @@ body {
 
     }
     .rightMore{
-        right: -75%;
-        bottom: 80px;
+        right: -90%;
     }
     .rightLess{
-        right: -39%;
-        bottom: 80px;
+        right: -48%;
     }
+
 }
 
 /*
@@ -153,14 +176,11 @@ body {
     .galleryCard2 {
         max-width: 45%;
     }
-
     .rightMore{
         right: -62%;
-        bottom: 80px;
     }
     .rightLess{
         right: -28%;
-        bottom: 80px;
     }
 }
 
@@ -187,7 +207,12 @@ body {
         padding-top: 10px;
 
     }
-
+    .rightBox .details p {
+        margin-bottom: 1px;
+        color: #5b5b5b;
+        opacity: 1;
+        transition: opacity 0.3s ease-in;
+    }
 }
 
 /*
@@ -212,7 +237,12 @@ body {
         position: initial;
         padding-top: 10px;
     }
-
+    .rightBox .details p {
+        margin-bottom: 1px;
+        color: #5b5b5b;
+        opacity: 1;
+        transition: opacity 0.3s ease-in;
+    }
 }
 
 /*
@@ -240,6 +270,13 @@ body {
         position: initial;
         padding-top: 10px;
     }
+    .rightBox .details p {
+        margin-bottom: 1px;
+        color: #5b5b5b;
+        opacity: 1;
+        transition: opacity 0.3s ease-in;
+    }
+
 
 }
 
@@ -290,5 +327,11 @@ body {
         margin-top: 35px !important;
         position: initial;
         padding-top: 10px;
+    }
+    .rightBox .details p {
+        margin-bottom: 1px;
+        color: #5b5b5b;
+        opacity: 1;
+        transition: opacity 0.3s ease-in;
     }
 }

@@ -13,7 +13,7 @@ body{
 }
 .dropdown-item{
     font-size: 14px;
-    padding: 0 7px!important;
+    padding: 0 17px!important;
 }
 
 
@@ -217,7 +217,7 @@ body{
     }
     .dropdown-item{
         font-size: 15px;
-        padding: 0!important;
+        padding: 17px!important;
         font-weight: 100;
     }
     .nav-link{
