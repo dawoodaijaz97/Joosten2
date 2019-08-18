@@ -118,13 +118,13 @@ body {
     bottom: 55px !important;
 }
 .bottom4{
-    bottom: 70px !important;
+    bottom: 75px !important;
 }
 .bottom5{
-    bottom: 88px !important;
+    bottom: 96px !important;
 }
 .bottom6{
-    bottom: 110px !important;
+    bottom: 113px !important;
 }
 .bottom7{
     bottom: 133px !important;
@@ -313,7 +313,7 @@ body {
 
     .dropdown-item {
         font-size: 15px;
-        padding: 0 !important;
+        padding: 0 0  0 17px !important;
         font-weight: 100;
     }
 

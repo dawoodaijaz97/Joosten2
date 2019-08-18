@@ -47,8 +47,16 @@ sculptureGallery.push(new GalleryItem("Ryuu","Ryuu4-v.jpg","2006","900x312x165 c
 sculptureGallery.push(new GalleryItem("Wake","wake.jpg","2008","280x50x30 cm","Fibreglass resin (FRP)","Boardroom WingTaiAsia Holding","Singapore",""));
 sculptureGallery.push(new GalleryItem("Wake","wake2.jpg","2008","280x50x30 cm","Fibreglass resin (FRP)","Boardroom WingTaiAsia Holding","Singapore",""));
 
-sculptureGallery.push(new GalleryItem("Scent of dawn","dawn.jpg","2006","300x65x42 cm","Fibreglass resin (FRP)","Residential building","Osaki, Tokyo","Oskai Art Village Project"));
-sculptureGallery.push(new GalleryItem("Scent of dawn","dawn2-v.jpg","2006","300x65x42 cm","Fibreglass resin (FRP)","Residential building","Osaki, Tokyo","Oskai Art Village Project"));
+sculptureGallery.push(new GalleryItem("Scent of dawn","Dawn.jpg","2006","300x65x42 cm","Fibreglass resin (FRP)","Residential building","Osaki, Tokyo","Oskai Art Village Project"));
+sculptureGallery.push(new GalleryItem("Scent of dawn","Dawn2-v.jpg","2006","300x65x42 cm","Fibreglass resin (FRP)","Residential building","Osaki, Tokyo","Oskai Art Village Project"));
 
 sculptureGallery.push(new GalleryItem("Door to the sky","Door.jpg","2005","180x42x38 cm","Paper mache, wire","","",""));
+
+
+sculptureGallery.push(new GalleryItem("Transient Sea","Transient-v.jpg","2003","488x256x108 cm","Fibreglass resin (FRP)","Panasonic","Shiodome, Tokyo","(Matsushita Electric Works Ltd)"));
+sculptureGallery.push(new GalleryItem("Transient Sea","Transient2-v.jpg","2003","488x256x108 cm","Fibreglass resin (FRP)","Panasonic","Shiodome, Tokyo","(Matsushita Electric Works Ltd)"));
+sculptureGallery.push(new GalleryItem("Transient Sea","Transient3-v.jpg","2003","488x256x108 cm","Fibreglass resin (FRP)","Panasonic","Shiodome, Tokyo","(Matsushita Electric Works Ltd)"));
+sculptureGallery.push(new GalleryItem("Transient Sea","Transient4-v.jpg","2003","488x256x108 cm","Fibreglass resin (FRP)","Panasonic","Shiodome, Tokyo","(Matsushita Electric Works Ltd)"));
+
+sculptureGallery.push(new GalleryItem("Pantha rei","Pantha.jpg","2003","348x76x50 cm","Fibreglass resin (FRP)","Panasonic","Tokyo","(Matsushita Electric Works Ltd)"));
 
