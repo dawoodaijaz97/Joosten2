@@ -1,9 +1,9 @@
 
 nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark
     a.navbar-brand(href="#") Maurice Joosten
-    button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")
+    button.navbar-toggler(type="button" data-toggle="collapse"  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")
         span.navbar-toggler-icon
-    div.collapse.navbar-collapse.justify-content-center#navbarNavAltMarkup
+    div.collapse.navbar-collapse.justify-content-center
         ul.navbar-nav
             li.nav-item.dropdown
                 a.nav-link.dropdown-toggle#navbarDropdownMenuLink(href="./works" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Works
@@ -17,7 +17,38 @@ nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark
                 a.nav-link(href="./about") About
             li.nav-item
                 a.nav-link(href="./contact") Contact
-            li.nav-item.ghost
-                a.nav-link(href="")
+            li.nav-item.social
+                a.nav-link(href="https://www.facebook.com/Maurice-Joosten-302304027070522/")
+                    i.fab.fa-facebook-f
+            li.nav-item.social
+                a.nav-link(href="https://www.instagram.com/mauricejoosten/")
+                    i.fab.fa-instagram
+
             li.nav-item#lang
                 a.nav-link(href="./") Eng/Jp
+
+
+
+
+    div.block.block-dshow
+        div.inner-block
+            ul.navbar-nav.flex-column
+                li.nav-item#works
+                    a.nav-link(href="#") Works
+                    div.my-dropdown-menu
+                        a.dropdown-item(href="./sculpture") Sculpture
+                        a.dropdown-item(href="./photography.html") Photography
+                        a.dropdown-item(href="/lightBox.html") Light Box
+                        a.dropdown-item(href="/drawing") Drawing
+                        a.dropdown-item(href="./olfactory.html") Olfactory space design
+                li.nav-item
+                    a.nav-link(href="./about") About
+                li.nav-item
+                    a.nav-link(href="./contact") Contact
+                li.nav-item.social
+                    a.nav-link(href="https://www.facebook.com/Maurice-Joosten-302304027070522/")
+                        i.fab.fa-facebook-f
+                    a.nav-link(href="https://www.instagram.com/mauricejoosten/")
+                        i.fab.fa-instagram
+                li.nav-item
+                    a.nav-link(href="./") Eng/Jp
