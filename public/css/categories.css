@@ -44,7 +44,7 @@ body{
 .categoriesCard {
     max-width:220px;
     padding: 0 !important;
-    margin: 0 15%;
+    margin: 0 25%;
     margin-bottom: 75px;
     background-color: #060606; !important;
     align-content: space-around;
@@ -145,8 +145,7 @@ body{
 
 @media (min-width: 1400px) {
     .categoriesCard {
-        margin: 0 200px;
-        margin-bottom: 75px;
+        margin: 0 40% 75px;
     }
 }
 
@@ -217,7 +216,6 @@ body{
     }
     .dropdown-item{
         font-size: 15px;
-        padding: 17px!important;
         font-weight: 100;
     }
     .nav-link{

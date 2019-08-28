@@ -60,3 +60,13 @@ sculptureGallery.push(new GalleryItem("Transient Sea","Transient4-v.jpg","2003",
 
 sculptureGallery.push(new GalleryItem("Pantha rei","Pantha.jpg","2003","348x76x50 cm","Fibreglass resin (FRP)","Panasonic","Tokyo","(Matsushita Electric Works Ltd)"));
 
+sculptureGallery.push(new GalleryItem("Shelter","Shelter.jpg","2005","133x29x10 cm","paper, wire","","",""));
+sculptureGallery.push(new GalleryItem("Breath","Breath.jpg","2005","148x22x12 cm","paper, wire","","",""));
+sculptureGallery.push(new GalleryItem("Dance","Dance-v.jpg","2001","186x94x60 cm","Fibreglass resin (FRP), wire","","",""));
+sculptureGallery.push(new GalleryItem("Mercedes","Mercedes-v.jpg","2001","152x92x62 cm","Fibreglass resin (FRP), wire","","",""));
+sculptureGallery.push(new GalleryItem("Flower","Flower-v.jpg","2001","205x92x62 cm","Fibreglass resin (FRP), wire","","",""));
+sculptureGallery.push(new GalleryItem("Dress","Dress-v.jpg","2000","238x228x125 cm","Fibreglass resin (FRP)","(Homage to Carlo Mollino) ","",""));
+sculptureGallery.push(new GalleryItem("Twin","Twin-v.jpg","1999","200x40x18 cm","Fibreglass resin (FRP)","","",""));
+sculptureGallery.push(new GalleryItem("Canopy","Canopy-v.jpg","1998","282x162x184 cm","Fibreglass resin (FRP)","","",""));
+sculptureGallery.push(new GalleryItem("Lamp","Lamp-v.jpg","1998","200x39x35 cm","Wood, paper, light bulbs","","",""));
+

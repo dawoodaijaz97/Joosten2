@@ -115,19 +115,19 @@ body {
     right: -33%;
 }
 .bottom3{
-    bottom: 55px !important;
+    bottom: 61px !important;
 }
 .bottom4{
-    bottom: 75px !important;
+    bottom: 77px !important;
 }
 .bottom5{
-    bottom: 96px !important;
+    bottom: 98px !important;
 }
 .bottom6{
-    bottom: 113px !important;
+    bottom: 118px !important;
 }
 .bottom7{
-    bottom: 133px !important;
+    bottom: 137px !important;
 }
 .rightBox .details p {
     margin-bottom: 1px;
@@ -135,6 +135,34 @@ body {
     opacity: 0;
     transition: opacity 0.3s ease-in;
 }
+
+.pagination-box{
+    align-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 30px;
+}
+.pagination-box .page-item{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+[aria-label="Previous"],[aria-label="Next"]{
+    margin-right: 0!important;
+    margin-left: 0!important;
+    padding-left: 0;
+    padding-right: 0;
+}
+.pagination-box .page-link{
+    color: #5a5a5a!important;
+    background-color: #060606 !important;
+    border:none!important;
+}
+.pagination-box .active{
+    color: #bfc5c9 !important;
+    border-radius: 20px;
+    border: 1px solid #bfc5c9!important;
+}
+
 
 /*
   ##Device = Desktops
@@ -188,7 +216,12 @@ body {
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
+@media (max-width: 992px){
+    .area,.area2,.size,.country,.material{
+        display: none;
+    }
 
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     .galleryCard {
         max-width: 75%;
@@ -202,7 +235,7 @@ body {
     .rightBox {
         text-align: right;
         font-size: 13px;
-        margin-top: 60px !important;
+        margin-top: 30px !important;
         position: initial;
         padding-top: 10px;
 
@@ -233,7 +266,7 @@ body {
     .rightBox {
         text-align: right;
         font-size: 13px;
-        margin-top: 60px !important;
+        margin-top: 30px !important;
         position: initial;
         padding-top: 10px;
     }
@@ -266,7 +299,7 @@ body {
     .rightBox {
         text-align: right;
         font-size: 13px;
-        margin-top: 60px !important;
+        margin-top: 30px !important;
         position: initial;
         padding-top: 10px;
     }
@@ -324,7 +357,7 @@ body {
     .rightBox {
         text-align: right;
         font-size: 13px;
-        margin-top: 35px !important;
+        margin-top: 25px !important;
         position: initial;
         padding-top: 10px;
     }
