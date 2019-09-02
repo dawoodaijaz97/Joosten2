@@ -21,10 +21,10 @@ lightBoxGallery.push(new GalleryItem("Monkoh", "Monkoh.jpg","2017-18","73x53 cm"
 lightBoxGallery.push(new GalleryItem("Twilight", "Twilight.jpg","2017-18","73x53 cm","plexiglass,LED","","",""));
 
 
-photographyGallery.push(new GalleryItem("3236L","3236L-v.jpg","","print on cotton paper","Archival pigment","","","",""));
-photographyGallery.push(new GalleryItem("3235B","3235B.jpg","","print on cotton paper","Archival pigment","","","",""));
-photographyGallery.push(new GalleryItem("3313B","3313B.jpg","","print on cotton paper","Archival pigment","","","",""));
-photographyGallery.push(new GalleryItem("3179L","3179L-v.jpg","","print on cotton paper","Archival pigment","","","",""));
+photographyGallery.push(new GalleryItem("Angelica","Angelica-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Hymne","Hymne-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Doulce memoire","Doulce memoire.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Cantate","Cantate.jpg","2016-18","","","","","",""));
 
 
 //Sculpture Items

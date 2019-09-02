@@ -29,7 +29,7 @@ body{
 .works {
     margin-top: 150px !important;
     padding-top: 120px;
-    border-top: 0.1pt solid rgb(22, 21, 21);
+    border-top: 0.1pt solid rgb(42, 41, 41);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -59,7 +59,7 @@ body{
 .titleCont2 {
     padding: 8px 0 !important;
     position: relative;
-    bottom: 210px;
+    bottom: 220px;
 
 }
 
@@ -208,7 +208,8 @@ body{
         margin-top:170px!important;
     }
     .categoriesCard {
-        max-width: 100%;
+        max-width: 220px;
+        margin: 0 10px;
     }
     .dropdown-menu{
         margin: 0px!important;
@@ -222,15 +223,15 @@ body{
         padding: 0px;
     }
     .titleCont2 {
-        padding: 8px 0 !important;
+        padding: 8px 20px !important;
         position: relative;
-        bottom: 245px;
+        bottom: 242px;
 
     }
     .titleCont {
         padding: 8px 0 !important;
         position: relative;
-        bottom: 210px;
+        bottom: 190px;
 
     }
 

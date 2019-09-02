@@ -19,12 +19,12 @@ $("document").ready(function () {
         "                <div class=\"rightBox rightLess\">\n" +
         "                   <div class='details'>\n" +
             "                   <p class='title'></p>" +
-            "                   <p class='year'>xyz</p>\n" +
-            "                   <p class='area'>xyz</p>\n" +
-            "                   <p class='area2'>xyz</p>\n" +
-            "                   <p class='country'>xyz</p>\n" +
-            "                   <p class='size'>xyz</p>\n" +
-            "                   <p class='material'>xyz</p>\n" +
+            "                   <p class='year'></p>\n" +
+            "                   <p class='area'></p>\n" +
+            "                   <p class='area2'></p>\n" +
+            "                   <p class='country'></p>\n" +
+            "                   <p class='size'></p>\n" +
+            "                   <p class='material'></p>\n" +
         "                   </div>\n" +
             "           </div>\n" +
             "</div>");
@@ -39,13 +39,24 @@ $("document").ready(function () {
         }else{
             worksCard.find(".rightBox").addClass("rightLess")
         }
+
+
         worksCard.attr("id", lightBoxGallery[i].title2);
         worksCard.find(".link").attr("./" + lightBoxGallery[i].title2 + ".html");
         worksCard.find("img").attr("src", "./images/lightBox/" + lightBoxGallery[i].img).attr("alt", lightBoxGallery[i].title);
         worksCard.find(".title").text(lightBoxGallery[i].title);
-        worksCard.find(".size").text(lightBoxGallery[i].size);
-        worksCard.find(".material").text(lightBoxGallery[i].material);
 
+
+        if(lightBoxGallery[i].size !== ""){
+            worksCard.find(".size").text(lightBoxGallery[i].size);
+        }else{
+            worksCard.find(".size").remove();
+        }
+        if(lightBoxGallery[i].material !== ""){
+            worksCard.find(".material").text(lightBoxGallery[i].material);
+        }else{
+            worksCard.find(".material").remove();
+        }
         if(lightBoxGallery[i].year !== "")
             worksCard.find(".year").text(lightBoxGallery[i].year);
         else{
@@ -70,6 +81,9 @@ $("document").ready(function () {
         let texts = worksCard.find(".details").children();
         let no_texts = texts.length;
         console.log(texts.length);
+        if(no_texts === 2){
+            worksCard.find(".rightBox").addClass("bottom2")
+        }
         if(no_texts === 3){
             worksCard.find(".rightBox").addClass("bottom3")
         }

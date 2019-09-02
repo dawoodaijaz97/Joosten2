@@ -98,12 +98,12 @@ $("document").ready(function () {
                 "                <div class='rightBox'>" +
                 "                   <div class='details'>" +
                 "                       <p class='title'></p>" +
-                "                   <p class='year'>xyz</p>" +
-                "                   <p class='area'>xyz</p>" +
-                "                   <p class='area2'>xyz</p>" +
-                "                   <p class='country'>xyz</p>" +
-                "                   <p class='size'>xyz</p>" +
-                "                   <p class='material'>xyz</p>" +
+                "                   <p class='year'></p>" +
+                "                   <p class='area'></p>" +
+                "                   <p class='area2'></p>" +
+                "                   <p class='country'></p>" +
+                "                   <p class='size'></p>" +
+                "                   <p class='material'></p>" +
                 "               </div>" +
                 "           </div>" +
                 "</div>");
@@ -121,9 +121,17 @@ $("document").ready(function () {
             worksCard.find(".link").attr("./" + sculptureGallery[i].title2 + ".html");
             worksCard.find("img").attr("src", "./images/sculptures/" + sculptureGallery[i].img).attr("alt", sculptureGallery[i].title);
             worksCard.find(".title").text(sculptureGallery[i].title);
-            worksCard.find(".size").text(sculptureGallery[i].size);
-            worksCard.find(".material").text(sculptureGallery[i].material);
 
+            if(sculptureGallery[i].size !== ""){
+                worksCard.find(".size").text(sculptureGallery[i].size);
+            }else{
+                worksCard.find(".size").remove();
+            }
+            if(sculptureGallery[i].material !== ""){
+                worksCard.find(".material").text(sculptureGallery[i].material);
+            }else{
+                worksCard.find(".material").remove();
+            }
             if (sculptureGallery[i].year !== "")
                 worksCard.find(".year").text(sculptureGallery[i].year);
             else {
@@ -149,6 +157,9 @@ $("document").ready(function () {
             let texts = worksCard.find(".details").children();
             let no_texts = texts.length;
             console.log(texts.length);
+            if(no_texts === 2){
+                worksCard.find(".rightBox").addClass("bottom2")
+            }
             if (no_texts === 3) {
                 worksCard.find(".rightBox").addClass("bottom3")
             }

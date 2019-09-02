@@ -30,7 +30,7 @@ body {
     padding-top: 120px;
     margin-left: 25px;
     margin-right: 25px;
-    border-top: 0.1pt solid rgb(22, 21, 21);
+    border-top: 0.1pt solid rgb(42, 41, 41);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -109,10 +109,15 @@ body {
 }
 .rightMore{
     right: -60%;
+    float: right;
 
 }
 .rightLess{
     right: -33%;
+    float: right;
+}
+.bottom2{
+    bottom: 48px !important;
 }
 .bottom3{
     bottom: 61px !important;

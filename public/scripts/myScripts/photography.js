@@ -19,12 +19,12 @@ $("document").ready(function () {
         "                <div class=\"rightBox\">\n" +
         "                   <div class='details'>\n" +
             "                   <p class='title'></p>" +
-            "                   <p class='year'>xyz</p>\n" +
-            "                   <p class='area'>xyz</p>\n" +
-            "                   <p class='area2'>xyz</p>\n" +
-            "                   <p class='country'>xyz</p>\n" +
-            "                   <p class='size'>xyz</p>\n" +
-            "                   <p class='material'>xyz</p>\n" +
+            "                   <p class='year'></p>\n" +
+            "                   <p class='area'></p>\n" +
+            "                   <p class='area2'></p>\n" +
+            "                   <p class='country'></p>\n" +
+            "                   <p class='size'></p>\n" +
+            "                   <p class='material'></p>\n" +
             "               </div>\n" +
             "           </div>\n" +
             "</div>");
@@ -43,9 +43,18 @@ $("document").ready(function () {
         worksCard.find(".link").attr("./" + photographyGallery[i].title2 + ".html");
         worksCard.find("img").attr("src", "./images/photography/" + photographyGallery[i].img).attr("alt", photographyGallery[i].title);
         worksCard.find(".title").text(photographyGallery[i].title);
-        worksCard.find(".size").text(photographyGallery[i].size);
-        worksCard.find(".material").text(photographyGallery[i].material);
 
+
+        if(photographyGallery[i].size !== ""){
+            worksCard.find(".size").text(photographyGallery[i].size);
+        }else{
+            worksCard.find(".size").remove();
+        }
+        if(photographyGallery[i].material !== ""){
+            worksCard.find(".material").text(photographyGallery[i].material);
+        }else{
+            worksCard.find(".material").remove();
+        }
         if(photographyGallery[i].year !== "")
             worksCard.find(".year").text(photographyGallery[i].year);
         else{
@@ -71,6 +80,9 @@ $("document").ready(function () {
         let texts = worksCard.find(".details").children();
         let no_texts = texts.length;
         console.log(texts.length);
+        if(no_texts === 2){
+            worksCard.find(".rightBox").addClass("bottom2")
+        }
         if(no_texts === 3){
             worksCard.find(".rightBox").addClass("bottom3")
         }
