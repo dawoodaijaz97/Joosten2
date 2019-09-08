@@ -30,6 +30,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding-left: 120px;
+    margin-bottom: 20px;
 }
 
 .navbar-brand {
@@ -38,7 +39,7 @@ body {
     font-weight: inherit;
 }
 .navbar-brand .sub-logo{
-    font-size: 17px;
+    font-size: 15px;
     color: var(--navlink-font-color) !important;
 }
 .nav-item .nav-link {
@@ -111,14 +112,16 @@ body {
 
 .block .navbar-nav {
     padding-left: 0;
+    margin-bottom: 0 !important;
 }
 
 .block .my-dropdown-menu {
-    position: relative;
-    left:55px;
+
 }
 .block .dropdown-item{
     font-size: 18px;
+    text-align: center;
+    padding: 0 !important;
 }
 
 

@@ -24,7 +24,32 @@ lightBoxGallery.push(new GalleryItem("Twilight", "Twilight.jpg","2017-18","73x53
 photographyGallery.push(new GalleryItem("Angelica","Angelica-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Hymne","Hymne-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Doulce memoire","Doulce memoire.jpg","2016-18","","","","","",""));
-photographyGallery.push(new GalleryItem("Cantate","Cantate.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Cantate I","Cantate1.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Cantate II","Cantate2.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Cantate III","Cantate3.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Cantate IV","Cantate4.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Untitled","Untitled-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Respiro I","Respiro1-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Respiro II","Respiro2-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Matins","Matins-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Sushumna","Sushumna-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Reminiscence","Reminiscence.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Nocturne II","Nocturne2-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Nocturne III","Nocturne3-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Inspira","Inspira-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Shrine","Shrine.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Zanshin","Zanshin-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Untitled","Untitled2.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Sussurri notturni I","Sussurri notturni1-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Sussurri notturni II","Sussurri notturni2-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Touching the night II","Touching the night2-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Soffio II","Soffio2-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Soffio III","Soffio3-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Samurai","Samurai-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Untitled","Untitled3.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Resurgo","Resurgo-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Lingam","Lingam-v.jpg","2016-18","","","","","",""));
+
 
 
 //Sculpture Items

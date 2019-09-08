@@ -176,13 +176,13 @@ body {
 
 @media (min-width: 1400px) {
     .galleryCard {
-        max-width: 50%;
+        width: 50%;
         margin: 0 300px;
         margin-bottom: 120px;
     }
 
     .galleryCard2 {
-        max-width: 35%;
+        width: 35%;
         margin: 0 300px;
         margin-bottom: 120px;
 

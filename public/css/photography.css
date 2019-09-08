@@ -1,0 +1,26 @@
+body{
+    background-color: black !important;
+}
+.navbar {
+    background-color: black !important;
+}
+
+.dropdown-menu {
+    background-color: black !important;
+}
+.block{
+    background-color: black !important;
+}
+.galleryCard{
+    background-color: black !important;
+}
+.galleryCard2{
+    background-color: black !important;
+}
+
+.dropdown-item:hover {
+    background-color: black !important;
+}
+.pagination-box .page-link{
+    background-color: black !important;
+}
