@@ -1,7 +1,6 @@
 
 :root {
     --navbar-bg-color: black;
-    --navlink-font-color: #676767;
     --navlink-fontHover-color: #ffffff;
     --dropdown-bg-color: black;
     --dropdown-color: #676767;
@@ -19,7 +18,7 @@ body {
 /*navBar styles*/
 
 .bg-dark {
-    background-color: var(--navbar-bg-color) !important;
+    background-color: black !important;
 }
 
 
@@ -40,11 +39,11 @@ body {
 }
 .navbar-brand .sub-logo{
     font-size: 15px;
-    color: var(--navlink-font-color) !important;
+    color: #676767 !important;
 }
 .nav-item .nav-link {
     font-size: 17px;
-    color: var(--navlink-font-color) !important;
+    /*color: #676767 !important;*/
     transition: color, swing, 300ms;
 }
 
@@ -53,6 +52,9 @@ body {
 }
 .nav-item.social{
     margin: 0 0.5%
+}
+.nav-item.social.f{
+    margin: 0 0.5% 0 2.5%
 }
 #lang .nav-link {
     font-size: 15px;
@@ -90,11 +92,7 @@ body {
     margin-top: 0 !important;
 }
 
-.dropdown-item:hover {
-    color: #ffffff !important;
 
-    background-color: black;
-}
 
 .block {
     display: none;
@@ -114,7 +112,6 @@ body {
     padding-left: 0;
     margin-bottom: 0 !important;
 }
-
 .block .my-dropdown-menu {
 
 }
@@ -205,7 +202,7 @@ body {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: #060606;
+        background-color: black;
         z-index: -1;
 
     }

@@ -1,26 +1,26 @@
 :root {}
 
 body{
-    background-color: #060606;
+    background-color: black;
 }
 /*Sculpture Card styles*/
 .navbar{
-    background-color: #060606!important;
+    background-color: black!important;
 }
 .dropdown-menu{
-    background-color: #060606!important;
+    background-color: black!important;
     padding-top: 0!important;
 }
 .dropdown-item{
     font-size: 14px;
     padding: 0 17px!important;
 }
-
-
-.dropdown-item:hover{
+.dropdown-item:hover {
     color: #ffffff !important;
-    background-color: #060606!important;
+    background-color: black;
 }
+
+
 
 .flex-cont {
     padding: 2%;
@@ -46,7 +46,7 @@ body{
     padding: 0 !important;
     margin: 0 25%;
     margin-bottom: 75px;
-    background-color: #060606; !important;
+    background-color: black; !important;
     align-content: space-around;
 }
 
