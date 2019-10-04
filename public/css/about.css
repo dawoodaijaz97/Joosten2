@@ -1,0 +1,102 @@
+
+.main{
+    border-top: 1px solid rgb(42, 41, 41);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 120px;
+    margin-top: 150px;
+}
+.flex-cont{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.text-area{
+    align-items: center;
+    width: 60%;
+}
+.text-area p {
+    font-size: 17px;
+    color: #919191;: ;
+}
+.selfie{
+    width: 30%;
+}
+.selfie img{
+    max-width: 100%;
+    margin-top: 8px;
+    height: auto;
+}
+.selfie{
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+}
+.italic{
+    margin-top: 50px;
+}
+
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (max-width: 992px){
+    .selfie{
+        margin-bottom: 50px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .text-area p {
+        font-size: 15px;
+        text-align: justify-all;
+    }
+
+
+}

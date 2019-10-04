@@ -49,6 +49,19 @@ photographyGallery.push(new GalleryItem("Samurai","Samurai-v.jpg","2016-18","","
 photographyGallery.push(new GalleryItem("Untitled","Untitled3.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Resurgo","Resurgo-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Lingam","Lingam-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Ruscello","Ruscello-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Sufi signature II","Sufi signature2-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Tabernacle","Tabernacle-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Sushumna I","Sushumna1-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Sushumna II","Sushumna2-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Unisono I","Unisono1-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Unisono II","Unisono2-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Ambergris I","Ambergris1-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Ambergris III","Ambergris3-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Panta rhei II","Panta rhei2-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Night bloom I","Night bloom1.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Night bloom III","Night bloom3-v.jpg","2016-18","","","","","",""));
+
 
 
 
@@ -58,6 +71,7 @@ sculptureGallery.push(new GalleryItem("kujira","Kujira2.jpg","2019","315x70x63 c
 sculptureGallery.push(new GalleryItem("kujira","Kujira3-v.jpg","2019","315x70x63 cm","Fibreglass resin (FBR)","Park Tower Harumi Tokyo","",""));
 sculptureGallery.push(new GalleryItem("kujira","Kujira4.jpg","2019","315x70x63 cm","Fibreglass resin (FBR)","Park Tower Harumi Tokyo","",""));
 sculptureGallery.push(new GalleryItem("kujira","Kujira5.jpg","2019","315x70x63 cm","Fibreglass resin (FBR)","Park Tower Harumi Tokyo","",""));
+
 
 sculptureGallery.push(new GalleryItem("Ascent","Ascent-v.jpg","2017","76x32x16 cm","plastic,steel wire,acrylic","","",""));
 sculptureGallery.push(new GalleryItem("Seascape","Seascape.jpg","2017","70x26x4 cm","plastic,steel wire,acrylic","","",""));
