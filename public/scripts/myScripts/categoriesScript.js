@@ -35,6 +35,10 @@ $("document").ready(function () {
         if(categories[i].title == "Sculpture" || categories[i].title == "Olfactory space design"){
             worksCard.find(".image").removeClass("image").addClass("image2");
         }
+        if(categories[i].title == "Olfactory space design"){
+            worksCard.find(".blurOut").removeClass("blurOut").addClass("blurOut2");
+        }
+
 
         worksRow.append(worksCard);
     }

@@ -55,7 +55,6 @@ photographyGallery.push(new GalleryItem("Tabernacle","Tabernacle-v.jpg","2016-18
 photographyGallery.push(new GalleryItem("Sushumna I","Sushumna1-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Sushumna II","Sushumna2-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Unisono I","Unisono1-v.jpg","2016-18","","","","","",""));
-photographyGallery.push(new GalleryItem("Unisono II","Unisono2-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Ambergris I","Ambergris1-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Ambergris III","Ambergris3-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Panta rhei II","Panta rhei2-v.jpg","2016-18","","","","","",""));

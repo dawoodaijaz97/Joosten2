@@ -1,0 +1,45 @@
+.flex-cont{
+    border-top: 1px solid rgb(42, 41, 41);
+    padding-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.text-area{
+    width: 900px;
+}
+p,h4{
+    color: #676767!important;
+}
+
+
+p.italic{
+    font-style: italic;
+}
+
+p.justify{
+    text-align: justify;
+}
+.centre{
+    text-align: center;
+}
+p.left{
+    text-align: left;
+}
+.mg-bottom{
+    margin-bottom: 70px;
+}
+.mg-bottom2{
+    margin-bottom: 45px;
+}
+.mg-bottom4{
+    margin-bottom: 20px;
+}
+span{
+
+}

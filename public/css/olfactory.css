@@ -1,55 +1,66 @@
 
 .main{
     border-top: 1px solid rgb(42, 41, 41);
-    margin-left: 50px;
-    margin-right: 50px;
     padding-top: 120px;
     margin-top: 150px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 .flex-cont{
-    max-width: 1050px;
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-content: space-around;
 }
 
 .text-area{
+    margin-left: 15px;
     align-items: center;
     width: 60%;
+    border-bottom-style:solid ;
+    border-bottom-color: rgb(42,41,41);
+    border-bottom-width: 1px;
 }
-.text-area p {
+.text-area2{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 275px;
+    margin-bottom: 50px;
+    align-items: center;
+    width: 60%;
+    border-bottom-style:solid ;
+    border-bottom-color: rgb(42,41,41);
+    border-bottom-width: 1px;
+}
+.text-area p,.text-area2 p {
     font-size: 17px;
     color: #676767;: ;
+
+}
+.text-area2 p{
+    font-style: italic;
 }
 .middle{
     margin-top: 25px;
 }
-
-.selfie img{
-    max-width: 100%;
-    margin-top: 8px;
-    height: auto;
-}
-.selfie-2 img{
-    max-width: 100%;
-    margin-top: 8px;
-    height: auto;
-}
-.selfie{
-    width: 220px;
+.img-olf{
+    margin-right: 15px;
+    width: 240px;
     height: auto;
     overflow: hidden;
 }
-.selfie-2{
-    width: 220px;
+
+.img-olf img{
+    max-width: 100%;
+    margin-top: 8px;
     height: auto;
-    display: none;
 }
+
+
 
 
 /*
@@ -66,14 +77,12 @@
   ##Screen = B/w 768px to 1024px
 */
 @media (max-width: 992px){
-    .selfie{
-        display: none;
+    .text-area2{
+        margin-left: 0;
+        width: 80%;
     }
-    .selfie-2{
-        width: 220px;
-        height: auto;
-        display: block;
-        margin-bottom: 70px;
+    .img-olf{
+        margin-bottom: 50px;
     }
     .text-area{
         width: 80%;

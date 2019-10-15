@@ -39,7 +39,7 @@ body {
 }
 .navbar-brand .sub-logo{
     font-size: 15px;
-    color: #676767 !important;
+    color: #ff1300 !important;
 }
 .nav-item .nav-link {
     font-size: 17px;
@@ -100,7 +100,10 @@ body {
     left: 0px;
 }
 
-
+.block .nav-item{
+    margin-top: 5px;
+    margin-bottom:5px;
+}
 
 .block .nav-item .nav-link {
     text-align: center; padding: 0;
@@ -111,15 +114,24 @@ body {
     padding-left: 0;
     margin-bottom: 0 !important;
 }
-.block .my-dropdown-menu {
-
+.block .my-dropdown-menu .dropdown-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .block .dropdown-item{
     font-size: 18px;
     text-align: center;
     padding: 0 !important;
 }
-
+.block .nav-item.social .nav-link{
+    display: inline-block;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.block .social{
+    text-align: center;
+    margin-top: 10px;
+}
 
 .show {
     display: block;
