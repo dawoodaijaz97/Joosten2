@@ -26,8 +26,13 @@
     font-size: 17px;
     color: #676767;: ;
 }
-.middle{
-    margin-top: 25px;
+.italic{
+    margin-bottom: 35px!important;
+}
+.selfie{
+    width: 235px;
+    height: auto;
+    overflow: hidden;
 }
 
 .selfie img{
@@ -40,11 +45,7 @@
     margin-top: 8px;
     height: auto;
 }
-.selfie{
-    width: 220px;
-    height: auto;
-    overflow: hidden;
-}
+
 .selfie-2{
     width: 220px;
     height: auto;

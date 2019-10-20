@@ -39,7 +39,7 @@ body {
 }
 .navbar-brand .sub-logo{
     font-size: 15px;
-    color: #ff1300 !important;
+    color: rgb(179,0,0) !important;
 }
 .nav-item .nav-link {
     font-size: 17px;
