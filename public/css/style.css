@@ -39,7 +39,7 @@ body {
 }
 .navbar-brand .sub-logo{
     font-size: 15px;
-    color: rgb(179,0,0) !important;
+    color: rgb(145,0,0) !important;
 }
 .nav-item .nav-link {
     font-size: 17px;
@@ -165,10 +165,12 @@ body {
     text-decoration: none;
     text-underline: none;
 }
+.myfoot p{
+    font-size: 15px;
+}
 
-.myfoot a p {
-    margin-right: 8px;
-    text-align: right;
+.myfoot .disclaimer {
+    margin-left: auto;
 }
 
 @media screen and (max-width: 1400px) {
@@ -188,6 +190,9 @@ body {
         display: none;
         opacity: 0;
     }
+    .nav-item.social .nav-link {
+        font-size: 20px ;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -199,6 +204,9 @@ body {
     }
 
     .ghost {
+        display: none;
+    }
+    .myfoot .social{
         display: none;
     }
 
@@ -261,5 +269,8 @@ body {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
+    .myfoot p {
+        text-align: center;
+        color: #919191;
+    }
 }

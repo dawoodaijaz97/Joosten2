@@ -32,7 +32,7 @@ photographyGallery.push(new GalleryItem("Untitled","Untitled-v.jpg","2016-18",""
 photographyGallery.push(new GalleryItem("Respiro I","Respiro1-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Respiro II","Respiro2-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Matins","Matins-v.jpg","2016-18","","","","","",""));
-photographyGallery.push(new GalleryItem("Sushumna","Sushumna-v.jpg","2016-18","","","","","",""));
+photographyGallery.push(new GalleryItem("Nadi","Nadi-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Reminiscence","Reminiscence.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Nocturne II","Nocturne2-v.jpg","2016-18","","","","","",""));
 photographyGallery.push(new GalleryItem("Nocturne III","Nocturne3-v.jpg","2016-18","","","","","",""));

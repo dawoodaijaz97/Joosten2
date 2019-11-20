@@ -108,12 +108,12 @@ body {
     position: relative;
 }
 .rightMore{
-    right: -60%;
+    right: -56%;
     float: right;
 
 }
 .rightLess{
-    right: -33%;
+    right: -30%;
     float: right;
 }
 .bottom2{
@@ -188,10 +188,10 @@ body {
 
     }
     .rightMore{
-        right: -90%;
+        right: -82%;
     }
     .rightLess{
-        right: -48%;
+        right: -43%;
     }
 
 }
@@ -365,6 +365,9 @@ body {
         margin-top: 25px !important;
         position: initial;
         padding-top: 10px;
+    }
+    .rightBox.rightMore{
+        margin-right: -40px;
     }
     .rightBox .details p {
         margin-bottom: 1px;

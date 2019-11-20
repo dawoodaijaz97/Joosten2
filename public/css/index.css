@@ -1,9 +1,9 @@
 
 
 :root{
-    --name-color1: #111111;
-    --name-color2:white
+
 }
+
 #nameCont{
     display: flex;
     align-content: center;
@@ -13,19 +13,42 @@
     width: 100vw;
 }
 
-#nameCont #name{
-
-    transition: color,ease-in,6000ms;
-    font-size: 24px;
-    font-weight: 100;
+.container {
+    position: relative;
+    width: 85px;
 }
+#center{
+    transition: all,ease-in,6000ms;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.container:hover .overlay {
+    opacity: 0;
+}
+
+
 .pulse1{
 
-    color: var(--name-color1);
+    opacity: 1;
 
 }
 .pulse2{
-    color:var(--name-color2);
+    opacity: 0;
 }
 
 /*tablet styles*/
@@ -37,7 +60,7 @@
 
     #name{
 
-        transition: color,ease-in,4000ms;
+        transition: all,ease-in,4000ms;
         font-size: 1.8rem;
     }
 }

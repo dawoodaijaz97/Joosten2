@@ -7,8 +7,7 @@ function Categories(title, img) {
 let categories = [];
 
 
-categories.push(new Categories("Photography", "Photography.jpg"));
-categories.push(new Categories("Light box", "LightBox.jpg"));
-categories.push(new Categories("Sculpture", "Sculpture.jpg"));
-categories.push(new Categories("Olfactory space design", "ARD.jpg"));
-categories.push(new Categories("mode", "ARD.jpg"));
+categories.push(new Categories("Photography", "PhotographyV.jpg"));
+categories.push(new Categories("Light works", "LightBoxV.jpg"));
+categories.push(new Categories("Sculpture", "SculptureV.jpg"));
+categories.push(new Categories("Scent architecture", "ARDV.jpg"));

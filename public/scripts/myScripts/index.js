@@ -1,6 +1,6 @@
 $("document").ready(function () {
 
-    let name = $("#name");
+    let name = $("#center");
     console.log(name);
     setTimeout(function () {
         addClass();
@@ -9,7 +9,7 @@ $("document").ready(function () {
     setInterval(function () {
         console.log("pulsating");
         addClass();
-    }, 6000)
+    }, 6000);
 
     function addClass() {
         if (name.hasClass("pulse1")) {
