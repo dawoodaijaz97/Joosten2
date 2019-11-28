@@ -91,13 +91,26 @@ $("document").ready(function () {
             console.log(photographyGallery[i]);
             let worksCard = $("<div class=galleryCard>" +
                 "            <div>" +
-                "                <div class='link blurOut'>" +
-                "                    <img src='images/photogrpahy/Cadence.jpg' class='image img-fluid text-center'>" +
+                "                <div class='link blurOut'  data-toggle='modal' data-target=''>" +
+                "                    <img src='images/photography/Cadence.jpg' class='image img-fluid text-center'>" +
                 "                </div>" +
-                "            </div>" +
+                "                    <div class='modal fade' id='' tabindex='-1' role='dialog' aria-hidden='true' >" +
+                "                    <div class='modal-dialog modal-dialog-centered modal-xl' role='document'>" +
+                "                        <div class='modal-content'>" +
+                "                            <div class='modal-header'>" +
+                "                                <button type='button' class='close' data-dismiss='modal' aria-label='Close'>" +
+                "                                    </button>" +
+                "                            </div>" +
+                "                            <div class='modal-body'>" +
+                "                                <img src=''>" +
+                "                             </div>" +
+                "                        </div>" +
+                "                    </div>" +
+                "                </div>" +
+                "             </div>" +
                 "                <div class='rightBox'>" +
                 "                   <div class='details'>" +
-                "                       <p class='title'></p>" +
+                "                   <p class='title'></p>" +
                 "                   <p class='year'></p>" +
                 "                   <p class='area'></p>" +
                 "                   <p class='area2'></p>" +
@@ -121,15 +134,18 @@ $("document").ready(function () {
             worksCard.find(".link").attr("./" + photographyGallery[i].title2 + ".html");
             worksCard.find("img").attr("src", "./images/photography/" + photographyGallery[i].img).attr("alt", photographyGallery[i].title);
             worksCard.find(".title").text(photographyGallery[i].title);
+            worksCard.find(".blurOut").attr("data-target","#"+photographyGallery[i].title2+"modal"+i);
+            worksCard.find(".modal").attr("id",photographyGallery[i].title2+"modal"+i);
+            worksCard.find(".modal-body img").attr("src", "./images/photography/" + photographyGallery[i].img).attr("alt", photographyGallery[i].title);
 
-            if(photographyGallery[i].size !== ""){
+            if (photographyGallery[i].size !== "") {
                 worksCard.find(".size").text(photographyGallery[i].size);
-            }else{
+            } else {
                 worksCard.find(".size").remove();
             }
-            if(photographyGallery[i].material !== ""){
+            if (photographyGallery[i].material !== "") {
                 worksCard.find(".material").text(photographyGallery[i].material);
-            }else{
+            } else {
                 worksCard.find(".material").remove();
             }
             if (photographyGallery[i].year !== "")
@@ -157,7 +173,7 @@ $("document").ready(function () {
             let texts = worksCard.find(".details").children();
             let no_texts = texts.length;
             console.log(texts.length);
-            if(no_texts === 2){
+            if (no_texts === 2) {
                 worksCard.find(".rightBox").addClass("bottom2")
             }
             if (no_texts === 3) {

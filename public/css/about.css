@@ -51,7 +51,9 @@
     display: none;
 }
 
-
+.myfoot{
+    margin-top: 150px;
+}
 /*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px

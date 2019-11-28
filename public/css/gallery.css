@@ -167,8 +167,32 @@ body {
     border-radius: 20px;
     border: 1px solid #bfc5c9!important;
 }
+.modal{
+    padding: 0!important;
+}
+.modal-content{
+    background-color: transparent;
+}
+.modal-header{
+    border-bottom: none!important;
+}
+.modal-header{
+    padding: 0!important;
+}
+.modal-header span{
+    color: white;
 
+}
+.modal-body img{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.modal-body{
+    padding: 0!important;
+}
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -192,6 +216,9 @@ body {
     }
     .rightLess{
         right: -43%;
+    }
+    .modal-dialog{
+        width: 70%!important;
     }
 
 }

@@ -11,10 +11,23 @@ $("document").ready(function () {
     for(let i =0; i<lightBoxGallery.length; i++) {
         console.log(lightBoxGallery[i]);
         let worksCard = $("<div class=galleryCard>\n" +
-            "            <div>\n" +
-            "                <div class=\"link blurOut\">\n" +
-            "                    <img src=\"images/lightBox/monkoh.jpg\" class=\"image img-fluid text-ceter\">\n" +
-            "                </div>\n" +
+            "            <div>" +
+            "                <div class=\"link blurOut\" data-toggle='modal' data-target=''>\n" +
+            "                    <img src=\"images/lightBox/monkoh.jpg\" class=\"image img-fluid text-center\">\n" +
+            "                </div>" +
+        "                   <div class='modal fade' id='' tabindex='-1' role='dialog' aria-hidden='true' >" +
+            "                   <div class='modal-dialog modal-dialog-centered modal-xl' role='document'>" +
+            "                       <div class='modal-content'>" +
+            "                           <div class='modal-header'>" +
+            "                               <button type='button' class='close' data-dismiss='modal' aria-label='Close'>" +
+        "                                   </button>" +
+            "                           </div>" +
+            "                           <div class='modal-body'>" +
+            "                               <img src=''>" +
+            "                            </div>" +
+            "                       </div>" +
+            "                   </div>" +
+            "               </div>"+
             "            </div>\n" +
         "                <div class=\"rightBox rightLess\">\n" +
         "                   <div class='details'>\n" +
@@ -45,7 +58,9 @@ $("document").ready(function () {
         worksCard.find(".link").attr("./" + lightBoxGallery[i].title2 + ".html");
         worksCard.find("img").attr("src", "./images/lightBox/" + lightBoxGallery[i].img).attr("alt", lightBoxGallery[i].title);
         worksCard.find(".title").text(lightBoxGallery[i].title);
-
+        worksCard.find(".blurOut").attr("data-target","#"+lightBoxGallery[i].title2+"modal");
+        worksCard.find(".modal").attr("id",lightBoxGallery[i].title2+"modal");
+        worksCard.find(".modal-body img").attr("src", "./images/lightBox/" + lightBoxGallery[i].img).attr("alt", lightBoxGallery[i].title);
 
         if(lightBoxGallery[i].size !== ""){
             worksCard.find(".size").text(lightBoxGallery[i].size);

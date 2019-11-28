@@ -45,6 +45,9 @@
 .news{
     margin-top: 40px;
 }
+.news.jp{
+    margin-top: 110px;
+}
 .middle{
     margin-top: 25px;
 }
@@ -88,7 +91,9 @@ p{
 }
 
 
-
+.myfoot {
+    margin-top: 85px;
+}
 
 /*
   ##Device = Laptops, Desktops
