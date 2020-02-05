@@ -7,9 +7,11 @@ $("document").ready(function () {
     }, 2000);
 
     setInterval(function () {
-        console.log("pulsating");
         addClass();
     }, 6000);
+
+
+
 
     function addClass() {
         if (name.hasClass("pulse1")) {

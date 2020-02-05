@@ -18,11 +18,55 @@ $("document").ready(function () {
             });
 
         }else{
-            block.removeClass("block-dshow").addClass("block-show")
+            block.removeClass("block-dshow").addClass("block-show");
             block.animate({
                 opacity:1
             },500);
         }
     });
 
+    if(localStorage.getItem("lang") === null){
+        localStorage.setItem("lang","eng");
+    }
+    let lang = localStorage.getItem("lang");
+
+
+
+    if(lang === "eng"){
+        $(".eng").addClass("highlight");
+        $(".scent-arch").attr("href","./scent-architecture.html");
+        $(".about").attr("href","./about.html");
+        $(".joosten-black").attr("href","./joosten-black.html");
+        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture.html");
+        $(".contact").attr("href","./contact.html")
+    }else{
+        $(".jp").addClass("highlight");
+        $(".scent-arch").attr("href","./scent-architecture-jp.html");
+        $(".about").attr("href","./about-jp.html");
+        $(".joosten-black").attr("href","./joosten-black-jp.html");
+        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture-jp.html");
+        $(".contact").attr("href","./contact-jp.html")
+    }
+
+    $(".eng").on("click",()=>{
+        localStorage.setItem("lang","eng");
+        $(".eng").addClass("highlight");
+        $(".jp").removeClass("highlight");
+        $(".scent-arch").attr("href","./scent-architecture.html");
+        $(".about").attr("href","./about.html");
+        $(".joosten-black").attr("href","./joosten-black.html");
+        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture.html");
+        $(".contact").attr("href","./contact.html")
+    });
+
+    $(".jp").on("click",()=>{
+        localStorage.setItem("lang","jp");
+        $(".jp").addClass("highlight");
+        $(".eng").removeClass("highlight");
+        $(".scent-arch").attr("href","./scent-architecture-jp.html");
+        $(".about").attr("href","./about-jp.html");
+        $(".joosten-black").attr("href","./joosten-black-jp.html");
+        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture-jp.html");
+        $(".contact").attr("href","./contact-jp.html")
+    });
 });

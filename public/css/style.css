@@ -4,7 +4,6 @@
     --navlink-fontHover-color: #ffffff;
     --dropdown-bg-color: black;
     --dropdown-color: #676767;
-
 }
 
 body {
@@ -101,8 +100,8 @@ body {
 }
 
 .block .nav-item{
-    margin-top: 5px;
-    margin-bottom:5px;
+    margin-top: 15px!important;
+    margin-bottom: 15px !important;
 }
 
 .block .nav-item .nav-link {
@@ -115,11 +114,11 @@ body {
     margin-bottom: 0 !important;
 }
 .block .my-dropdown-menu .dropdown-item {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .block .dropdown-item{
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     padding: 0 !important;
 }
@@ -184,6 +183,10 @@ body {
 
 
 }
+.highlight{
+    color: #b4b4b4;
+    text-decoration: underline;
+}
 
 @media screen and (min-width: 992px) {
     .block-show {
@@ -192,6 +195,9 @@ body {
     }
     .nav-item.social .nav-link {
         font-size: 20px ;
+    }
+    .eng:hover,.jp:hover{
+        cursor: pointer;
     }
 }
 
@@ -236,6 +242,9 @@ body {
     .block-dshow {
         display: none;
     }
+    .langOp:hover{
+        color: rgba(255,255,255,0.5) !important;
+    }
 
 }
 
@@ -271,6 +280,6 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
     .myfoot p {
         text-align: center;
-        color: #919191;
+        color: #5a5a5a;
     }
 }

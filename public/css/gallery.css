@@ -42,23 +42,29 @@ body {
 /*Category styles */
 
 .galleryCard {
-    max-width: 60%;
+    max-width: 50%;
     padding: 0 !important;
     margin-bottom: 120px;
-    background-color: black;
-!important;
+    background-color: black !important;
+    margin-left: 100px;
+    margin-right: 100px;
     align-content: space-around;
+}
+.galleryCard :hover{
+    cursor: pointer;
 }
 
 .galleryCard2 {
-    max-width: 45%;
+    max-width: 35%;
     padding: 0 !important;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-bottom: 120px;
-    background-color: black;
-!important;
+    background-color: black !important;
     align-content: space-around;
+}
+.galleryCard2:hover{
+    cursor: pointer;
 }
 .galleryCard2:hover .details p{
     opacity: 1;
@@ -108,12 +114,12 @@ body {
     position: relative;
 }
 .rightMore{
-    right: -56%;
+    right: -75%;
     float: right;
 
 }
 .rightLess{
-    right: -30%;
+    right: -40%;
     float: right;
 }
 .bottom2{
@@ -170,6 +176,9 @@ body {
 .modal{
     padding: 0!important;
 }
+.m-small{
+    opacity: 0!important;
+}
 .modal-content{
     background-color: transparent;
 }
@@ -200,22 +209,24 @@ body {
 
 @media (min-width: 1400px) {
     .galleryCard {
-        width: 50%;
+        /*width: 50%;*/
+        width: 40%;
         margin: 0 300px;
         margin-bottom: 120px;
     }
 
     .galleryCard2 {
-        width: 35%;
+        /*width: 35%;*/
+        width: 25%;
         margin: 0 300px;
         margin-bottom: 120px;
 
     }
     .rightMore{
-        right: -82%;
+        right: -100%;
     }
     .rightLess{
-        right: -43%;
+        right: -45%;
     }
     .modal-dialog{
         width: 70%!important;
@@ -229,6 +240,7 @@ body {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+
     .galleryCard {
         max-width: 65%;
     }
@@ -242,6 +254,7 @@ body {
     .rightLess{
         right: -28%;
     }
+
 }
 
 /*
@@ -252,7 +265,6 @@ body {
     .area,.area2,.size,.country,.material{
         display: none;
     }
-
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .galleryCard {

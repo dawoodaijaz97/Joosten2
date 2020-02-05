@@ -198,4 +198,9 @@ $("document").ready(function () {
         $('html, body').animate({scrollTop: (scroll_pos)}, 250);
 
     }
+    if (window.innerWidth < 1250) {
+        console.log("Removing Model");
+        $(".modal").attr("id"," ");
+    }
+
 });

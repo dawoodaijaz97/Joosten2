@@ -3,7 +3,7 @@ nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark
     div
         a(href="#").navbar-brand Maurice Joosten
             p.sub-logo Art & Olfactory
-    button.navbar-toggler(type="button" data-toggle="collapse"  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")
+    button.navbar-toggler(type="button" data-toggle="collapse"   aria-expanded="false" aria-label="Toggle navigation")
         span.navbar-toggler-icon
     div.collapse.navbar-collapse.justify-content-center
         ul.navbar-nav
@@ -11,17 +11,20 @@ nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark
                 a.nav-link.dropdown-toggle#navbarDropdownMenuLink(href="./works" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Works
                 div.dropdown-menu(aria-labelledby="navbarDropdownMenuLink")
                     a.dropdown-item(href="./photography.html") Photography
-                    a.dropdown-item(href="/lightBox.html") Light works
-                    a.dropdown-item#first(href="./sculpture") Sculpture
-                    a.dropdown-item(href="./scent architecture.html") Scent architecture
+                    a.dropdown-item(href="./lightworks.html") Light works
+                    a.dropdown-item#first(href="./sculpture.html") Sculpture
+                    a.dropdown-item.scent-arch(href="./scent-architecture.html") Scent architecture
             li.nav-item
-                a.nav-link(href="./joosten-black") Joosten Black
+                a.nav-link.joosten-black(href="./joosten-black.html") Joosten Black
             li.nav-item
-                a.nav-link(href="./about") About
+                a.nav-link.about(href="./about.html") About
             li.nav-item
-                a.nav-link(href="./contact") Contact
-            li.nav-item#lang
-                a.nav-link(href="./") Eng/Jp
+                a.nav-link.contact(href="./contact.html") Contact
+            li.nav-item#lang.langOp
+                a.nav-link
+                    span.eng Eng
+                    span /
+                    span.jp Jp
 
 
 
@@ -34,17 +37,20 @@ nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.bg-dark
                     a.nav-link(href="#") Works
                     div.my-dropdown-menu
                         a.dropdown-item(href="./photography.html") Photography
-                        a.dropdown-item(href="/lightBox.html") Light works
-                        a.dropdown-item(href="./sculpture") Sculpture
-                        a.dropdown-item(href="./scent architecture.html") Scent architecture
+                        a.dropdown-item(href="./lightworks.html") Light works
+                        a.dropdown-item(href="./sculpture.html") Sculpture
+                        a.dropdown-item.scent-arch(href="./scent-architecture.html") Scent architecture
                 li.nav-item
-                    a.nav-link(href="./joosten-black") Joosten Black
+                    a.nav-link.joosten-black(href="./joosten-black.html") Joosten Black
                 li.nav-item
-                    a.nav-link(href="./about") About
+                    a.nav-link.about(href="./about.html") About
                 li.nav-item
-                    a.nav-link(href="./contact") Contact
+                    a.nav-link.contact(href="./contact.html") Contact
                 li.nav-item
-                    a.nav-link(href="./") Eng/Jp
+                    a.nav-link.langOp
+                        span.eng Eng
+                        span /
+                        span.jp Jp
                 li.nav-item.social
                     p.socials
                         a.nav-link(href="https://www.facebook.com/Maurice-Joosten-302304027070522/")

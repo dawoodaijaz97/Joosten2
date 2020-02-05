@@ -94,29 +94,28 @@ $("document").ready(function () {
                 "                <div class='link blurOut'  data-toggle='modal' data-target=''>" +
                 "                    <img src='images/sculptures/Cadence.jpg' class='image img-fluid text-center'>" +
                 "                </div>" +
-            "                   <div class='modal fade' id='' tabindex='-1' role='dialog' aria-hidden='true' >" +
-                "                    <div class='modal-dialog modal-dialog-centered modal-xl' role='document'>" +
-                "                        <div class='modal-content'>" +
-                "                            <div class='modal-header'>" +
-                "                                <button type='button' class='close' data-dismiss='modal' aria-label='Close'>" +
-                "                                    </button>" +
-                "                            </div>" +
-                "                            <div class='modal-body'>" +
-                "                                <img src=''>" +
-                "                             </div>" +
-                "                        </div>" +
-                "                    </div>" +
-                "                </div>" +
-                "            </div>" +
-                "                <div class='rightBox'>" +
+                "                   <div class='modal  fade' id='' tabindex='-1' role='dialog' aria-hidden='true' >" +
+                "                       <div class='modal-dialog modal-dialog-centered modal-xl' role='document'>" +
+                "                           <div class='modal-content'>" +
+                "                               <div class='modal-header'>" +
+                "                                   <button type='button' class='close' data-dismiss='modal' aria-label='Close'>" +
+                "                                       </button>" +
+                "                               </div>" +
+                "                               <div class='modal-body'>" +
+                "                                   <img src=''>" +
+                "                               </div>" +
+                "                           </div>" +
+                "                       </div>" +
+                "                       </div>" +
+                "               <div class='rightBox'>" +
                 "                   <div class='details'>" +
                 "                       <p class='title'></p>" +
-                "                   <p class='year'></p>" +
-                "                   <p class='area'></p>" +
-                "                   <p class='area2'></p>" +
-                "                   <p class='country'></p>" +
-                "                   <p class='size'></p>" +
-                "                   <p class='material'></p>" +
+                "                       <p class='year'></p>" +
+                "                       <p class='area'></p>" +
+                "                       <p class='area2'></p>" +
+                "                       <p class='country'></p>" +
+                "                       <p class='size'></p>" +
+                "                       <p class='material'></p>" +
                 "               </div>" +
                 "           </div>" +
                 "</div>");
@@ -134,8 +133,8 @@ $("document").ready(function () {
             worksCard.find(".link").attr("./" + sculptureGallery[i].title2 + ".html");
             worksCard.find("img").attr("src", "./images/sculptures/" + sculptureGallery[i].img).attr("alt", sculptureGallery[i].title);
             worksCard.find(".title").text(sculptureGallery[i].title);
-            worksCard.find(".blurOut").attr("data-target","#"+sculptureGallery[i].title2+"modal"+i);
-            worksCard.find(".modal").attr("id",sculptureGallery[i].title2+"modal"+i);
+            worksCard.find(".blurOut").attr("data-target", "#" + sculptureGallery[i].title2 + "modal" + i);
+            worksCard.find(".modal").attr("id", sculptureGallery[i].title2 + "modal" + i);
             worksCard.find(".modal-body img").attr("src", "./images/sculptures/" + sculptureGallery[i].img).attr("alt", sculptureGallery[i].title);
 
             if (sculptureGallery[i].size !== "") {
@@ -198,4 +197,10 @@ $("document").ready(function () {
         $('html, body').animate({scrollTop: (scroll_pos)}, 250);
 
     }
+
+    if (window.innerWidth < 1250) {
+        console.log("Removing Model");
+        $(".modal").attr("id"," ");
+    }
+
 });

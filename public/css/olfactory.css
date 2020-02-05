@@ -2,7 +2,7 @@
 .main{
     border-top: 1px solid rgb(42, 41, 41);
     padding-top: 120px;
-    margin-top: 150px;
+    margin-top: 180px;
     margin-left: 35px;
     margin-right: 35px;
 }
@@ -34,9 +34,9 @@
     border-bottom-color: rgb(42,41,41);
     border-bottom-width: 1px;
 }
-.text-area p,.text-area2 p {
+.text-area p ,.text-area2 p {
     font-size: 17px;
-    color: #676767;: ;
+    color: #676767;
 
 }
 .text-area2 p{

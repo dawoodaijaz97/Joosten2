@@ -2,43 +2,45 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href="./images/favicon.png" type="image/png" rel="shortcut icon">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <script src="./scripts/libraries/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://kit.fontawesome.com/895e810d5f.js"></script>
+    <script src="./scripts/libraries/cookies.min.js"></script>
     <script src="./scripts/libraries/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/gallery.css">
     <link rel="stylesheet" href="./css/about.css">
-    <title>About</title>
+    <title>モーリス　ヨーステン - About</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
       <div><a class="navbar-brand" href="#">Maurice Joosten
           <p class="sub-logo">Art & Olfactory</p></a></div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse justify-content-center">
         <ul class="navbar-nav">
           <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="./works" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Works</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><a class="dropdown-item" href="./photography.html">Photography</a><a class="dropdown-item" href="/lightBox.html">Light works</a><a class="dropdown-item" id="first" href="./sculpture">Sculpture</a><a class="dropdown-item" href="./scent architecture.html">Scent architecture</a></div>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><a class="dropdown-item" href="./photography.html">Photography</a><a class="dropdown-item" href="./lightworks.html">Light works</a><a class="dropdown-item" id="first" href="./sculpture.html">Sculpture</a><a class="dropdown-item scent-arch" href="./scent-architecture.html">Scent architecture</a></div>
           </li>
-          <li class="nav-item"><a class="nav-link" href="./joosten-black">Joosten Black</a></li>
-          <li class="nav-item"><a class="nav-link" href="./about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="./contact">Contact</a></li>
-          <li class="nav-item" id="lang"><a class="nav-link" href="./">Eng/Jp</a></li>
+          <li class="nav-item"><a class="nav-link joosten-black" href="./joosten-black.html">Joosten Black</a></li>
+          <li class="nav-item"><a class="nav-link about" href="./about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link contact" href="./contact.html">Contact</a></li>
+          <li class="nav-item langOp" id="lang"><a class="nav-link"><span class="eng">Eng</span><span>/</span><span class="jp">Jp</span></a></li>
         </ul>
       </div>
       <div class="block block-dshow">
         <div class="inner-block">
           <ul class="navbar-nav flex-column">
             <li class="nav-item" id="works"><a class="nav-link" href="#">Works</a>
-              <div class="my-dropdown-menu"><a class="dropdown-item" href="./photography.html">Photography</a><a class="dropdown-item" href="/lightBox.html">Light works</a><a class="dropdown-item" href="./sculpture">Sculpture</a><a class="dropdown-item" href="./scent architecture.html">Scent architecture</a></div>
+              <div class="my-dropdown-menu"><a class="dropdown-item" href="./photography.html">Photography</a><a class="dropdown-item" href="./lightworks.html">Light works</a><a class="dropdown-item" href="./sculpture.html">Sculpture</a><a class="dropdown-item scent-arch" href="./scent-architecture.html">Scent architecture</a></div>
             </li>
-            <li class="nav-item"><a class="nav-link" href="./joosten-black">Joosten Black</a></li>
-            <li class="nav-item"><a class="nav-link" href="./about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="./contact">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="./">Eng/Jp</a></li>
+            <li class="nav-item"><a class="nav-link joosten-black" href="./joosten-black.html">Joosten Black</a></li>
+            <li class="nav-item"><a class="nav-link about" href="./about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link contact" href="./contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link langOp"><span class="eng">Eng</span><span>/</span><span class="jp">Jp</span></a></li>
             <li class="nav-item social">
               <p class="socials"><a class="nav-link" href="https://www.facebook.com/Maurice-Joosten-302304027070522/"><i class="fab fa-facebook-f"></i></a><a class="nav-link" href="https://www.instagram.com/mauricejoosten/"><i class="fab fa-instagram"></i></a></p>
             </li>
@@ -50,7 +52,7 @@
       <div class="flex-cont">
         <div class="selfie-2"><img src="./images/About.jpg"></div>
         <div class="text-area">
-          <p class="italic"><i>私の創作は、生きることの儚さ、そして、身体性とその境界の消失を追い求める。この主題は、これまで気体のように軽く形の捉えどころない白色の彫刻作品として具象化されてきた。<br>しかしながら、近年、創作の主軸は反転し、これまでの作品が光を表すとするなら、より暗闇へと引寄せられている。磨かれた白色の表面へ光が反射することで現れる表象から、内面より自らを照らす像へ。光は暗闇がゆえに輝き、そして完全なものとなる。</i></p>
+          <p class="italic"><i>"私の創作は、生きることの儚さ、そして、身体性とその境界の消失を追い求める。この主題は、これまで気体のように軽く形の捉えどころない白色の彫刻作品として具象化されてきた。<br>しかしながら、近年、創作の主軸は反転し、これまでの作品が光を表すとするなら、より暗闇へと引寄せられている。磨かれた白色の表面へ光が反射することで現れる表象から、内面より自らを照らす像へ。光は暗闇がゆえに輝き、そして完全なものとなる。"</i></p>
           <p class="middle">1962年　オランダ　ハーレムに生まれる。アムステルダムのアートアカデミーにて現代美術彫刻を学び、ロイヤル　アカデミー　オブ　ビジュアルアーツのフェローシップ修了。<br>1988年からプロのビジュアルアーティストとして活動。1997年よりイタリアのトリノ在。同時期に、ヨガとnonduality（非二元論）の教えに触れ、思索を深める。2003年東京におけるパナソニックのパブリックアートプロジェクト完了後、日本に拠点を移す。</p>
           <p>
             また、2006年より、香りの研究を開始、視覚と嗅覚の相乗的な作用を探究する。東京とベルリンを拠点とする@aroma社の芳香空間デザイナーとして、世界中の航空会社（機内・ラウンジ）、ホテル、高級車、ラグジュアリーブランドのために特別な香りを開発。
