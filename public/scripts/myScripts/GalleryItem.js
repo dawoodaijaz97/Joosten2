@@ -65,11 +65,11 @@ photographyGallery.push(new GalleryItem("Night bloom III","Night bloom3-v.jpg","
 
 
 //Sculpture Items
-sculptureGallery.push(new GalleryItem("Kujira","Kujira.jpg","2019","315x70x63 cm","Fibreglass resin (FBR)","Park Tower Harumi Tokyo","",""));
-sculptureGallery.push(new GalleryItem("Kujira","Kujira2.jpg","2019","315x70x63 cm","Fibreglass resin (FBR)","Park Tower Harumi Tokyo","",""));
-sculptureGallery.push(new GalleryItem("Kujira","Kujira3-v.jpg","2019","315x70x63 cm","Fibreglass resin (FBR)","Park Tower Harumi Tokyo","",""));
-sculptureGallery.push(new GalleryItem("Kujira","Kujira4.jpg","2019","315x70x63 cm","Fibreglass resin (FBR)","Park Tower Harumi Tokyo","",""));
-sculptureGallery.push(new GalleryItem("Kujira","Kujira5.jpg","2019","315x70x63 cm","Fibreglass resin (FBR)","Park Tower Harumi Tokyo","",""));
+sculptureGallery.push(new GalleryItem("Kujira","Kujira.jpg","2019","315x70x63 cm","Fibreglass resin (FRP)","Park Tower Harumi Tokyo","",""));
+sculptureGallery.push(new GalleryItem("Kujira","Kujira2.jpg","2019","315x70x63 cm","Fibreglass resin (FRP)","Park Tower Harumi Tokyo","",""));
+sculptureGallery.push(new GalleryItem("Kujira","Kujira3-v.jpg","2019","315x70x63 cm","Fibreglass resin (FRP)","Park Tower Harumi Tokyo","",""));
+sculptureGallery.push(new GalleryItem("Kujira","Kujira4.jpg","2019","315x70x63 cm","Fibreglass resin (FRP)","Park Tower Harumi Tokyo","",""));
+sculptureGallery.push(new GalleryItem("Kujira","Kujira5.jpg","2019","315x70x63 cm","Fibreglass resin (FRP)","Park Tower Harumi Tokyo","",""));
 
 
 sculptureGallery.push(new GalleryItem("Ascent","Ascent-v.jpg","2017","76x32x16 cm","plastic,steel wire,acrylic","","",""));

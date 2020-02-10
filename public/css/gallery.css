@@ -72,7 +72,13 @@ body {
 .galleryCard:hover .details p{
     opacity: 1;
 }
-
+#galleryTitle{
+    width:100%;
+    font-size:30px;
+    text-align: center;
+    color: #737271;
+    padding-bottom:70px;
+}
 
 
 .titleCont {
