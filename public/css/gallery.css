@@ -78,6 +78,7 @@ body {
     text-align: center;
     color: #737271;
     padding-bottom:70px;
+    font-weight: 100;
 }
 
 
@@ -190,14 +191,28 @@ body {
 }
 .modal-header{
     border-bottom: none!important;
-}
-.modal-header{
     padding: 0!important;
 }
-.modal-header span{
-    color: white;
-
+.galleryCard .modal-header button{
+    padding-right: 120px !important;
+    padding-top: 50px!important;
+    outline: none;
 }
+.galleryCard2 .modal-header button{
+    padding-right: 270px !important;
+    padding-top: 50px!important;
+    outline: none;
+}
+
+.modal-header span{
+    color: red;
+    font-weight: bold!important;
+    font-size: 28px!important;
+}
+.close{
+    text-shadow: none!important;
+}
+
 .modal-body img{
     display: block;
     text-align: center;
@@ -208,6 +223,9 @@ body {
 .modal-body{
     padding: 0!important;
 }
+
+
+
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -236,6 +254,17 @@ body {
     }
     .modal-dialog{
         width: 70%!important;
+    }
+
+    .galleryCard .modal-header button{
+        padding-right: 110px !important;
+        padding-top: 50px!important;
+        outline: none;
+    }
+    .galleryCard2 .modal-header button{
+        padding-right: 260px !important;
+        padding-top: 50px!important;
+        outline: none;
     }
 
 }

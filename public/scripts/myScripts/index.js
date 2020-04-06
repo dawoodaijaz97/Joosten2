@@ -8,7 +8,7 @@ $("document").ready(function () {
 
     setInterval(function () {
         addClass();
-    }, 6000);pug
+    }, 6000);
 
 
 

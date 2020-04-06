@@ -131,7 +131,7 @@ $("document").ready(function () {
                 worksCard.find(".rightBox").addClass("rightLess")
             }
             worksCard.attr("id", photographyGallery[i].title2);
-            worksCard.find(".link").attr("./" + photographyGallery[i].title2 + ".html");
+            worksCard.find(".link").attr("./" + photographyGallery[i].title2 + ".htm");
             worksCard.find("img").attr("src", "./images/photography/" + photographyGallery[i].img).attr("alt", photographyGallery[i].title);
             worksCard.find(".title").text(photographyGallery[i].title);
             worksCard.find(".blurOut").attr("data-target","#"+photographyGallery[i].title2+"modal"+i);

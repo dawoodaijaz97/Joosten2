@@ -98,8 +98,9 @@ $("document").ready(function () {
                 "                       <div class='modal-dialog modal-dialog-centered modal-xl' role='document'>" +
                 "                           <div class='modal-content'>" +
                 "                               <div class='modal-header'>" +
-                "                                   <button type='button' class='close' data-dismiss='modal' aria-label='Close'>" +
-                "                                       </button>" +
+                "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n" +
+                "          <span aria-hidden=\"true\">&times;</span>\n" +
+                "        </button>" +
                 "                               </div>" +
                 "                               <div class='modal-body'>" +
                 "                                   <img src=''>" +
@@ -130,7 +131,7 @@ $("document").ready(function () {
                 worksCard.find(".rightBox").addClass("rightLess")
             }
             worksCard.attr("id", sculptureGallery[i].title2);
-            worksCard.find(".link").attr("./" + sculptureGallery[i].title2 + ".html");
+            worksCard.find(".link").attr("./" + sculptureGallery[i].title2 + ".htm");
             worksCard.find("img").attr("src", "./images/sculptures/" + sculptureGallery[i].img).attr("alt", sculptureGallery[i].title);
             worksCard.find(".title").text(sculptureGallery[i].title);
             worksCard.find(".blurOut").attr("data-target", "#" + sculptureGallery[i].title2 + "modal" + i);
@@ -200,7 +201,7 @@ $("document").ready(function () {
 
     if (window.innerWidth < 1250) {
         console.log("Removing Model");
-        $(".modal").attr("id"," ");
+        $(".modal").attr("id", " ");
     }
 
 });

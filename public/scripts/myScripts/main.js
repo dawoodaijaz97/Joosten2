@@ -34,43 +34,43 @@ $("document").ready(function () {
 
     if(lang === "eng"){
         $(".eng").addClass("highlight");
-        $(".scent-arch").attr("href","./scent-architecture.html");
-        $(".about").attr("href","./about.html");
-        $(".joosten-black").attr("href","./joosten-black.html");
-        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture.html");
-        $(".contact").attr("href","./contact.html");
-        $(".disclaimer a").attr("href","./disclaimer.html");
+        $(".scent-arch").attr("href","./scent-architecture.htm");
+        $(".about").attr("href","./about.htm");
+        $(".joosten-black").attr("href","./joosten-black.htm");
+        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture.htm");
+        $(".contact").attr("href","./contact.htm");
+        $(".disclaimer a").attr("href","./disclaimer.htm");
     }else{
         $(".jp").addClass("highlight");
-        $(".scent-arch").attr("href","./scent-architecture-jp.html");
-        $(".about").attr("href","./about-jp.html");
-        $(".joosten-black").attr("href","./joosten-black-jp.html");
-        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture-jp.html");
-        $(".contact").attr("href","./contact-jp.html");
-        $(".disclaimer a").attr("href","./disclaimer-jp.html");
+        $(".scent-arch").attr("href","./scent-architecture-jp.htm");
+        $(".about").attr("href","./about-jp.htm");
+        $(".joosten-black").attr("href","./joosten-black-jp.htm");
+        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture-jp.htm");
+        $(".contact").attr("href","./contact-jp.htm");
+        $(".disclaimer a").attr("href","./disclaimer-jp.htm");
     }
 
     $(".eng").on("click",()=>{
         localStorage.setItem("lang","eng");
         $(".eng").addClass("highlight");
         $(".jp").removeClass("highlight");
-        $(".scent-arch").attr("href","./scent-architecture.html");
-        $(".about").attr("href","./about.html");
-        $(".joosten-black").attr("href","./joosten-black.html");
-        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture.html");
-        $(".contact").attr("href","./contact.html");
-        $(".disclaimer a").attr("href","./disclaimer.html");
+        $(".scent-arch").attr("href","./scent-architecture.htm");
+        $(".about").attr("href","./about.htm");
+        $(".joosten-black").attr("href","./joosten-black.htm");
+        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture.htm");
+        $(".contact").attr("href","./contact.htm");
+        $(".disclaimer a").attr("href","./disclaimer.htm");
     });
 
     $(".jp").on("click",()=>{
         localStorage.setItem("lang","jp");
         $(".jp").addClass("highlight");
         $(".eng").removeClass("highlight");
-        $(".scent-arch").attr("href","./scent-architecture-jp.html");
-        $(".about").attr("href","./about-jp.html");
-        $(".joosten-black").attr("href","./joosten-black-jp.html");
-        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture-jp.html");
-        $(".contact").attr("href","./contact-jp.html");
-        $(".disclaimer a").attr("href","./disclaimer-jp.html");
+        $(".scent-arch").attr("href","./scent-architecture-jp.htm");
+        $(".about").attr("href","./about-jp.htm");
+        $(".joosten-black").attr("href","./joosten-black-jp.htm");
+        $("#Scentarchitecture").find(".link").attr("href","./scent-architecture-jp.htm");
+        $(".contact").attr("href","./contact-jp.htm");
+        $(".disclaimer a").attr("href","./disclaimer-jp.htm");
     });
 });
